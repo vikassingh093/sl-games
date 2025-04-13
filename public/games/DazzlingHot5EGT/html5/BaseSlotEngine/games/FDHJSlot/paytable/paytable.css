@@ -1,0 +1,321 @@
+#PaytableContent
+{
+	background: -webkit-linear-gradient(left, #8f1102, #ff1e00 40%, #ff1e00 60%, #8f1102 100%);
+	background: -o-linear-gradient(left, #8f1102, #ff1e00 40%, #ff1e00 60%, #8f1102 100%);
+	background: -moz-linear-gradient(left, #8f1102, #ff1e00 40%, #ff1e00 60%, #8f1102 100%);
+	background: linear-gradient(left, #8f1102, #ff1e00 40%, #ff1e00 60%, #8f1102 100%);
+	
+	padding: 0 97px 0 97px;
+	overflow: overlay;
+}
+
+#PaytableContent .title
+{
+	background-image: url("BaseSlotEngine/games/FDHJSlot/paytable/title.png");
+	background-repeat:no-repeat;
+	width: 616px;
+	height: 100px;
+	margin: 10px auto;
+}
+
+#PaytableContent .panel
+{
+	background: #7c0000;
+	border: 7px solid #ffc045;
+	border-radius: 25px;
+	padding: 5px 5px 5px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-bottom: 14px;
+}
+
+#PaytableContent .panel.seven
+{
+	width:  536px;
+	height: 240px;
+	float:left;
+}
+
+#PaytableContent .panel.star
+{
+	width: 536px;
+	height: 240px;
+	float: right;
+}
+
+#PaytableContent .panel.grape
+{
+	width: 100%;
+	height: 240px;	
+	float: left;
+}
+
+#PaytableContent .panel.lemon
+{
+	width: 100%;
+	height: 240px;	
+	float: left;
+}
+
+#PaytableContent .panel.cherry
+{
+	width: 658px;
+	height: 240px;	
+	float: left;
+	margin-left: 231px;
+}
+
+#PaytableContent .panel.jackpot
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.gamble
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .panel.linesAndRules
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+#PaytableContent .singleImage
+{
+	background-image: url("BaseSlotEngine/games/FDHJSlot/paytable/sprite.jpg");
+	float: left;
+	margin-top:  5px;
+	margin-left: 6px;
+	width: 210px;
+	height: 163px;
+}
+
+#PaytableContent .singleImage.seven  	{ background-position:    -0px    0px; width: 204px; height: 203px; margin-top: 7px; }
+#PaytableContent .singleImage.star 		{ background-position:  -204px   -0px; width: 204px; height: 203px; margin-top: -49px }
+#PaytableContent .singleImage.grape  	{ background-position:  -408px   -0px; width: 204px; height: 203px; margin-top: 7px; }
+#PaytableContent .singleImage.wmelon 	{ background-position:  -612px   -0px; width: 204px; height: 203px; margin-top: 7px; }
+#PaytableContent .singleImage.lemon  	{ background-position:  -816px   -0px; width: 204px; height: 203px; margin-top: 7px; }
+#PaytableContent .singleImage.plum   	{ background-position: -948px  -203px; width: 381px; height: 203px; margin-top: 7px; }
+#PaytableContent .singleImage.cherry   	{ background-position:-1020px    -0px; width: 204px; height: 203px; margin-top: 7px; }
+
+{
+	margin-top: 33px;
+	background-position: -390px -178px;
+}
+
+
+#PaytableContent .singleImage.star   { float: right;	margin-right: 8px; }
+#PaytableContent .singleImage.wmelon { float: right;	margin-right: 8px; }
+#PaytableContent .singleImage.plum   { float: right;	margin-right: 8px; }
+
+#PaytableContent .singleImage.smallImage
+{
+	position: relative;
+	-webkit-transform: scale3d(0.6, 0.6, 1);
+	-moz-transform: scale3d(0.6, 0.6, 1);
+	transform: scale3d(0.6, 0.6, 1);
+	margin-top: 0px;
+}
+
+
+#PaytableContent .singleImage.lineSection1
+{
+	background-position: -0px -203px;
+	width: 948px;
+	height: 219px;
+	margin: 10px auto;
+	float: none;
+}
+
+
+#PaytableContent .singleImage.jackpotTitle
+{
+	background-position: -0px -422px;
+	width: 600px;
+	height: 64px;
+	float: none;
+	margin: 10px auto 20px auto;
+}
+
+#PaytableContent .linesContainer
+{
+	float: left;
+	width: 257px;
+	height: 100%;	
+}
+
+
+#PaytableContent .linesContainer.seven 	{ width: 322px; }
+#PaytableContent .linesContainer.star 	{ width: 322px; }
+#PaytableContent .linesContainer.grape { width: 550px; margin-left: 83px; }
+#PaytableContent .linesContainer.lemon { width: 380px; margin-left: 76px; }
+#PaytableContent .linesContainer.cherry{ width: 400px; margin-left: 23px; }
+
+
+
+#PaytableContent .paytableLine
+{
+	overflow: hidden;
+	height: 46px;
+	margin-bottom: -2px;	
+}
+
+#PaytableContent .paytableLine.firstLine.seven { margin-top: 46px; }
+#PaytableContent .paytableLine.firstLine.star  { margin-top: 11px; }
+#PaytableContent .paytableLine.firstLine.grape { margin-top: 46px; }
+#PaytableContent .paytableLine.firstLine.lemon { margin-top: 46px; }
+#PaytableContent .paytableLine.firstLine.cherry{ margin-top: 27px; }
+
+
+#PaytableContent .textLine
+{
+	line-height: 33px;
+	font: bold 33px arial,sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+#PaytableContent .textLine.lineBullet
+{
+	color: #ffc605;	
+	text-shadow: 
+					0px 0px 5px #200032, 
+					0px 0px 5px #200032, 
+					0px 0px 5px #200032, 
+					0px 0px 5px #200032,
+					0px 0px 5px #200032,
+					0px 0px 5px #200032,
+					0px 0px 5px #200032,
+					0px 0px 5px #200032					
+				;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+#PaytableContent .textLine.lineContent
+{
+	margin-top: 5px;
+	text-shadow: 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404, 
+					0px 0px 5px #500404,
+					1px 2px 3px #000000,
+					1px 2px 3px #000000,
+					1px 2px 3px #000000
+				;	
+	overflow: hidden;
+}
+#PaytableContent .currency, #PaytableContent .jackpotGambleCurrency
+{
+	font-size: 50%;
+}
+
+#PaytableContent .textLine.lineBullet.seven	{ margin-left: 6px; }
+#PaytableContent .textLine.lineBullet.star	{ float:right; }
+#PaytableContent .textLine.lineBullet.cherry{ margin-left: 23px; }
+
+
+#PaytableContent .textLine.lineJackpot
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.lineGamble
+{
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+#PaytableContent .textLine.scatterText
+{
+	font-size: 46px;
+	width: 300px;
+	text-shadow: 3px 3px 1px #000000;
+	color: #e79c0a;
+}
+
+#PaytableContent .paytableText
+{
+	font: bold 25px arial,sans-serif;
+	color: #f5eda2;
+	text-align: center;
+	line-height: 47px;
+	text-shadow: 					
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c,
+					0px 0px 5px #22003c
+				;	
+}
+
+
+#PaytableContent .paytableText.jackpot
+{
+	width: 100%;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 0px 26px;
+	box-sizing: border-box;
+	margin-bottom: 6px;
+}
+#PaytableContent .paytableText.jackpot.da{	padding: 0px 35px;}
+#PaytableContent .jackpotLabel { color: #f0de2e; }
+#PaytableContent .cardsLabel { color: #cf3838; }
+#PaytableContent .qBets
+{
+	position: relative;
+	left: -70px;
+}
+#PaytableContent .gambleFirstLine
+{
+	position: relative;
+	left: -40px;
+}
+
+#PaytableContent .sectionTitle
+{
+	font: bold 40px arial,sans-serif;
+	color: #f9d100;
+	text-align: center;
+	text-shadow: 
+					0px 0px 5px #c00317,
+					0px 0px 5px #c00317,
+					0px 0px 5px #c00317,
+					0px 0px 5px #c00317,
+					0px 0px 6px black,
+					0px 0px 6px black,
+					0px 0px 6px black,
+					0px 0px 6px black,
+					0px 0px 6px black,
+					0px 0px 6px black
+				;
+	margin: 7px auto;
+}
+#PaytableContent .sectionTitle12345
+{
+	font: bold 40px arial,sans-serif;
+	color: #f9d100;
+	text-align: center;
+	text-shadow: 
+					1px 3px 3px #000000,
+					1px 3px 3px #000000
+				;
+	margin: 7px auto;
+}

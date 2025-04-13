@@ -1,0 +1,117 @@
+<style>
+    .rc-popup-overlay {
+        position: fixed;
+        display: -ms-flexbox;
+        display: flex;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.42);
+        z-index: 1002;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-bottom: auto;
+    }
+
+    .rc-popup-container {
+        min-width: 300px;
+        cursor: default;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        background-color: rgba(0, 0, 0, 0.76);
+        height: auto;
+        color: #fff;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .rc-popup-title {
+        font-size: 30px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        background: rgba(75, 75, 75, 0.71);
+        margin: 0;
+        padding: 10px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .rc-popup-description {
+        font-size: 22px;
+        line-height: 33px;
+        max-width: 500px;
+        text-align: center;
+        color: #fff;
+        margin: 20px auto 0;
+        padding: 0 30px;
+    }
+
+    .rc-popup-button-container {
+        margin: 0 auto 15px;
+        max-width: 600px;
+    }
+
+    .rc-popup-button {
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 10px;
+        line-height: 25px;
+        margin: 30px 15px 0;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        box-sizing: border-box;
+        min-width: 30%;
+        background-color: rgba(94, 91, 91, 0.8);
+    }
+
+    .rc-popup-button:not(.disabled):active {
+        background-color: rgba(161, 161, 161, 0.8);
+    }
+
+    .rc-popup-button:not(.disabled):active::before {
+        background-color: rgba(161, 161, 161, 0.8);
+    }
+
+    .rc-popup-button:not(.disabled):active::after {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    .btnActive {
+        display: inline-block;
+    }
+
+    .btnDisabled {
+        display: none;
+    }
+</style>
+
+<div class="rc-popup-overlay">
+    <div id="rc-popup-container" class="rc-popup-container ">
+        <h2 class="rc-popup-title">{{reality_check_title}}</h2>
+        <p class="rc-popup-description">{{reality_check_text1}}<br>
+            <span style="font-weight: bold" class="realityCheck_timeValue"></span>
+            <br>{{reality_check_text2}}<br>
+            <span style="font-weight: bold" class="realityCheck_loseValue"></span>
+            <br>{{reality_check_text3}}<br>
+            <span style="font-weight: bold" class="realityCheck_winValue"></span
+            ></p>
+        <div class="rc-popup-button-container">
+            <div class="rc-popup-button realityCheck_continueBtn">{{reality_check_continue_button}}</div>
+            <div class="rc-popup-button realityCheck_historyBtn">{{reality_check_history_button}}</div>
+            <div class="rc-popup-button realityCheck_exitBtn">{{reality_check_exit_button}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,193 @@
+<style>
+    @font-face {
+        font-family: "Futura";
+        src: url("css/fonts/FuturaPT-Medium.otf") format("opentype");
+        font-display: block;
+    }
+
+    @font-face {
+        font-family: "Futura";
+        font-weight: bold;
+        src: url("css/fonts/FuturaPT-Heavy.otf") format("opentype");
+        font-display: block;
+    }
+
+    .html-popup-overlay {
+        position: fixed;
+        display: -ms-flexbox;
+        display: flex;
+        height: {
+                {
+                html-popup_contentContainer_height
+            }
+        }
+        ;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: rgba(0,
+        0,
+        0,
+        0.5);
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-bottom: auto;
+        font-family: "Futura";
+        font-weight: bold;
+    }
+
+    @media (orientation: landscape) {
+        .html-popup-overlay {
+            height: 100%;
+        }
+    }
+
+    .html-popup-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: default;
+        background-color: rgba(0, 0, 0, 0.76);
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .html-popup-title {
+        font-size: 30px;
+        color: #ec6a0d;
+        text-transform: uppercase;
+        background: rgba(15, 15, 35, 0.90);
+        margin: 0;
+        padding: 10px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .html-popup-description {
+        font-size: 22px;
+        line-height: 33px;
+        max-width: 500px;
+        text-align: center;
+        color: #fff;
+        margin: 20px auto 0;
+        padding: 0 30px;
+    }
+
+    .html-popup-button-container {
+        margin: 0 auto 6%;
+        width: 100%;
+    }
+
+    .html-popup-button {
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 10px;
+        line-height: 25px;
+        margin: 30px 15px 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        box-sizing: border-box;
+        min-width: 26vw;
+        background-color: rgba(94, 91, 91, 0.8);
+    }
+
+    @media (orientation: landscape) and (max-height: 320px) {
+        .html-popup-container {
+            justify-content: flex-start;
+        }
+        .html-popup-title {
+            zoom: 60%;
+        }
+        .html-popup-description {
+            margin: 50px auto 0;
+        }
+        .html-popup-description {
+            font-size: 18px;
+        }
+    }
+
+    .html-popup-button-show {
+        display: inline-block;
+    }
+
+    .html-popup-button-hide {
+        display: none;
+    }
+
+    .animationShow {
+        animation-duration: 0.5s;
+        animation-name: opacityAnimationShow;
+    }
+
+    .animationHide {
+        animation-duration: 0.5s;
+        animation-name: opacityAnimationHide;
+    }
+
+    .opacityDefault {
+        opacity: 1;
+    }
+
+    .descriptionOpacityAnimation {
+        animation-duration: 1.8s;
+        animation-name: opacityAnimation;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes opacityAnimationShow {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes opacityAnimationHide {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes opacityAnimation {
+        from {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<div class="html-popup-overlay">
+    <div class="html-popup-container">
+        <div class="html-popup-title">ERROR</div>
+
+        <div class="html-popup-description"> Touch for reconnect.</div>
+
+        <div class="html-popup-button-container">
+            <div class="html-popup-button html-popup-button-one">CLOSE</div>
+            <div class="html-popup-button html-popup-button-two">OK</div>
+        </div>
+    </div>
+
+</div>

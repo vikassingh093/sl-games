@@ -1,0 +1,1 @@
+<?php /**PATH /var/www/slot-games/resources/views/frontend/Default/partials/scripts.blade.php ENDPATH**/ ?>

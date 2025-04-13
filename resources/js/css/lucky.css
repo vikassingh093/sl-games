@@ -1,0 +1,46 @@
+.modal-window-lucky {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000C20;
+    opacity: 0.88;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-lucky__scale-cont {
+    position: relative;
+    transform-origin: 50% 25%;
+    width: 889px;
+    height: 614px;
+}
+
+.modal-window-lucky__ok {
+    position: absolute;
+    cursor: pointer;
+    width: 225px;
+    height: 67px;
+    left: 200px;
+    top: 500px;
+    z-index: 10;
+}
+
+.modal-window-lucky__close {
+    position: absolute;
+    cursor: pointer;
+    width: 225px;
+    height: 67px;
+    left: 470px;
+    top: 500px;
+    z-index: 10;
+}
+
+.modal-window-lucky__back {
+    position: absolute;
+    width: 889px;
+    height: 614px;
+    left:0;
+}

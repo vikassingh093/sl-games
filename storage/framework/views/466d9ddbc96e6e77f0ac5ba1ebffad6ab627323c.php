@@ -1,0 +1,1 @@
+<?php /**PATH /var/www/RiverDragon/resources/views/frontend/Default/partials/scripts.blade.php ENDPATH**/ ?>

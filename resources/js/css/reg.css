@@ -1,0 +1,82 @@
+.modal-window-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000C20;
+    opacity: 0.88;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-reg__scale-cont {
+    position: relative;
+    width: 885px;
+    height: 699px;
+}
+
+.modal-window-reg__fields {
+    position: absolute;
+    resize: none;
+    border: #FAD123;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    width: 629px;
+    height: 25px;
+    left: 124px;
+    font-size: 23px;
+    outline: none;
+    color: #97DCFE;
+    background: rgba(0,0,0,0);
+    box-shadow: none;
+    z-index: 10;
+}
+
+.modal-window-reg__name {
+    top: 161px;
+
+}
+
+.modal-window-reg__phone {
+    top: 247px;
+
+}
+
+.modal-window-reg__email {
+    top: 335px;
+
+}
+
+.modal-window-reg__comment {
+    top: 418px;
+    height: 86px;
+
+}
+
+.modal-window-reg__close {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    left: 807px;
+    top: 37px;
+    z-index: 10;
+}
+
+.modal-window-reg__get {
+    position: absolute;
+    cursor: pointer;
+    width: 740px;
+    height: 90px;
+    top: 574px;
+    left: 73px;
+    z-index: 10;
+}
+
+.modal-window-reg__back {
+    position: absolute;
+    width: 885px;
+    height: 699px;
+}

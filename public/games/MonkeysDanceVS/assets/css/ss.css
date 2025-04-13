@@ -1,0 +1,39 @@
+.logo {
+ 
+  margin: 5px 0 0 -9px;
+}
+
+.landing-page {
+  height: 90%;
+}
+
+body {
+
+  background-size: cover;
+}
+
+.balance::after {
+  content: ' $';
+}
+
+.casino-viewport-error {
+  background: #000 url('assets/images/ss/turn_device_icon.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+p.info {
+  background: #444;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+@media (max-width: 992px) {
+  body {
+    background: #000;
+  }
+
+  .landing-page {
+
+    background-size: cover;
+  }
+}

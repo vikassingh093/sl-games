@@ -1,0 +1,3402 @@
+{
+	"games": [
+		{
+			"name": "Burning Reels Deluxe",
+			"gameID": "00050340",
+			"logo": "/gambleclient/buredx/assets/images/load.jpg",
+			"config": "/gambleclient/buredx/js/config.js",
+			"main": "/gambleclient/buredx/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/buredx_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/buredx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/buredx_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/buredx_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/buredx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/buredx_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/buredx_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/buredx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/buredx_desktop.gif"
+			}
+		},
+		{
+			"name": "Super Stars",
+			"gameID": "000500e0",
+			"logo": "/gambleclient/supsta/assets/images/load.jpg",
+			"config": "/gambleclient/supsta/js/config.js",
+			"main": "/gambleclient/supsta/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/supsta_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/supsta_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/supsta_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/supsta_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/supsta_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/supsta_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/supsta_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/supsta_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/supsta_desktop.gif"
+			}
+		},
+		{
+			"name": "Lady's Kiss Deluxe",
+			"gameID": "000500c0",
+			"logo": "/gambleclient/lkidlx/assets/images/load.jpg",
+			"config": "/gambleclient/lkidlx/js/config.js",
+			"main": "/gambleclient/lkidlx/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/lkidlx_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lkidlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/lkidlx_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/lkidlx_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lkidlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/lkidlx_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/lkidlx_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lkidlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/lkidlx_desktop.gif"
+			}
+		},
+		{
+			"name": "Route 66",
+			"gameID": "000500b0",
+			"logo": "/gambleclient/rout66/assets/images/load.jpg",
+			"config": "/gambleclient/rout66/js/config.js",
+			"main": "/gambleclient/rout66/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/rout66_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/rout66_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/rout66_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/rout66_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/rout66_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/rout66_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/rout66_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/rout66_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/rout66_desktop.gif"
+			}
+		},
+		{
+			"name": "Book of Egypt",
+			"gameID": "000500a0",
+			"logo": "/gambleclient/boofeg/assets/images/load.jpg",
+			"config": "/gambleclient/boofeg/js/config.js",
+			"main": "/gambleclient/boofeg/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/boofeg_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/boofeg_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/boofeg_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/boofeg_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/boofeg_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/boofeg_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/boofeg_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/boofeg_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/boofeg_desktop.gif"
+			}
+		},
+		{
+			"name": "Wild West 27",
+			"gameID": "00050270",
+			"logo": "/gambleclient/ww27/assets/images/load.jpg",
+			"config": "/gambleclient/ww27/js/config.js",
+			"main": "/gambleclient/ww27/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/ww27_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/ww27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/ww27_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/ww27_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/ww27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/ww27_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/ww27_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/ww27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/ww27_desktop.gif"
+			}
+		},
+		{
+			"name": "Devil's Fire",
+			"gameID": "000501c0",
+			"logo": "/gambleclient/devbbq/assets/images/load.jpg",
+			"config": "/gambleclient/devbbq/js/config.js",
+			"main": "/gambleclient/devbbq/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Multiplier",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Multiplikator",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/devbbq_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbbq_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/devbbq_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Symbol Multiplier",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Symbol Multiplier",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/devbbq_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbbq_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/devbbq_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Symbol Multiplier",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Symbol Multiplier",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/devbbq_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbbq_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/devbbq_desktop.gif"
+			}
+		},
+		{
+			"name": "Heroes of Egypt",
+			"gameID": "00050160",
+			"logo": "/gambleclient/phara/assets/images/load.jpg",
+			"config": "/gambleclient/phara/js/config.js",
+			"main": "/gambleclient/phara/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/phara_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phara_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/phara_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/phara_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phara_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/phara_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/phara_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phara_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/phara_desktop.gif"
+			}
+		},
+		{
+			"name": "The Worm",
+			"gameID": "00050040",
+			"logo": "/gambleclient/thewor/assets/images/load.jpg",
+			"config": "/gambleclient/thewor/js/config.js",
+			"main": "/gambleclient/thewor/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Worm doubles SG winnings"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Wurm verdoppelt SG Gewinne"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/thewor_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/thewor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/thewor_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Worm doubles SG winnings"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Wurm verdoppelt SG Gewinne"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/thewor_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/thewor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/thewor_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Worm doubles SG winnings"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Wurm verdoppelt SG Gewinne"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/thewor_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/thewor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/thewor_desktop.gif"
+			}
+		},
+		{
+			"name": "Luxury 777 Deluxe",
+			"gameID": "00050280",
+			"logo": "/gambleclient/tr7dlx/assets/images/load.jpg",
+			"config": "/gambleclient/tr7dlx/js/config.js",
+			"main": "/gambleclient/tr7dlx/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/tr7dlx_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tr7dlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/tr7dlx_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/tr7dlx_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tr7dlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/tr7dlx_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/tr7dlx_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tr7dlx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/tr7dlx_desktop.gif"
+			}
+		},
+		{
+			"name": "Devil's Bride",
+			"gameID": "00050050",
+			"logo": "/gambleclient/devbri/assets/images/load.jpg",
+			"config": "/gambleclient/devbri/js/config.js",
+			"main": "/gambleclient/devbri/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Moving Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Moving Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/devbri_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbri_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/devbri_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Moving Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Bewegter Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/devbri_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbri_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/devbri_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Moving Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Sexy!",
+						"description_3": "Scatter",
+						"description_4": "Bewegter Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/devbri_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/devbri_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/devbri_desktop.gif"
+			}
+		},
+		{
+			"name": "Burning Scatter",
+			"gameID": "00050070",
+			"logo": "/gambleclient/redho7/assets/images/load.jpg",
+			"config": "/gambleclient/redho7/js/config.js",
+			"main": "/gambleclient/redho7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Slow Scatter"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Slow Scatter"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/redho7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/redho7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Slow Scatter"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Slow Scatter"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/redho7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/redho7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Slow Scatter"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Slow Scatter"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/redho7_desktop.gif"
+			}
+		},
+		{
+			"name": "Star Fruits",
+			"gameID": "000500d0",
+			"logo": "/gambleclient/stafru/assets/images/load.jpg",
+			"config": "/gambleclient/stafru/js/config.js",
+			"main": "/gambleClient/stafru/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/stafru_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/stafru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/stafru_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/stafru_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/stafru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/stafru_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker vervielfacht"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/stafru_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/stafru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/stafru_desktop.gif"
+			}
+		},
+		{
+			"name": "King of Vegas",
+			"gameID": "00050240",
+			"logo": "/gambleclient/vegmad/assets/images/load.jpg",
+			"config": "/gambleclient/vegmad/js/config.js",
+			"main": "/gambleclient/vegmad/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Free Spins",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Freispiele",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/vegmad_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/vegmad_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/vegmad_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Free Spins",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Freispiele",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/vegmad_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/vegmad_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/vegmad_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Free Spins",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Freispiele",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/vegmad_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/vegmad_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/vegmad_desktop.gif"
+			}
+		},
+		{
+			"name": "Magic of the Wizard",
+			"gameID": "00050060",
+			"logo": "/gambleclient/wizzar/assets/images/load.jpg",
+			"config": "/gambleclient/wizzar/js/config.js",
+			"main": "/gambleclient/wizzar/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/wizzar_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/wizzar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/wizzar_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/wizzar_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/wizzar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/wizzar_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/wizzar_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/wizzar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/wizzar_desktop.gif"
+			}
+		},
+		{
+			"name": "Pharao",
+			"gameID": "000540a0",
+			"logo": "/gambleclient/phasax/assets/images/load.jpg",
+			"config": "/gambleclient/phasax/js/config.js",
+			"main": "/gambleclient/phasax/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/phasax_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phasax_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/phasax_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/phasax_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phasax_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/phasax_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/phasax_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/phasax_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/phasax_desktop.gif"
+			}
+		},
+		{
+			"name": "Luxury 777",
+			"gameID": "00050130",
+			"logo": "/gambleclient/trip7/assets/images/load.jpg",
+			"config": "/gambleclient/trip7/js/config.js",
+			"main": "/gambleclient/trip7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/trip7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/trip7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/trip7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/trip7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/trip7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/trip7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/trip7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/trip7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/trip7_desktop.gif"
+			}
+		},
+		{
+			"name": "Hot 27",
+			"gameID": "000540e0",
+			"logo": "/gambleclient/hot27/assets/images/load.jpg",
+			"config": "/gambleclient/hot27/js/config.js",
+			"main": "/gambleclient/hot27/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "No Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/hot27_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hot27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/hot27_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/hot27_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hot27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/hot27_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/hot27_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hot27_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/hot27_desktop.gif"
+			}
+		},
+		{
+			"name": "Lady's Kiss",
+			"gameID": "00050150",
+			"logo": "/gambleclient/myball/assets/images/load.jpg",
+			"config": "/gambleclient/myball/js/config.js",
+			"main": "/gambleclient/myball/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/myball_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myball_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/myball_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/myball_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myball_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/myball_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/myball_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myball_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/myball_desktop.gif"
+			}
+		},
+		{
+			"name": "Red Hot 7s",
+			"gameID": "000540d0",
+			"logo": "/gambleclient/redho7/assets/images/load.jpg",
+			"config": "/gambleclient/redho7/js/config.js",
+			"main": "/gambleclient/redho7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/redho7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/redho7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/redho7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/redho7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/redho7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/redho7_desktop.gif"
+			}
+		},
+		{
+			"name": "Burning Ring",
+			"gameID": "00050030",
+			"logo": "/gambleclient/burrin/assets/images/load.jpg",
+			"config": "/gambleclient/burrin/js/config.js",
+			"main": "/gambleclient/burrin/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/burrin_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burrin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/burrin_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/burrin_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burrin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/burrin_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/burrin_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burrin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/burrin_desktop.gif"
+			}
+		},
+		{
+			"name": "XXX Reels",
+			"gameID": "000502a0",
+			"logo": "/gambleclient/tripx/assets/images/load.jpg",
+			"config": "/gambleclient/tripx/js/config.js",
+			"main": "/gambleclient/tripx/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "No Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/tripx_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tripx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/tripx_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/tripx_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tripx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/tripx_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/tripx_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/tripx_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/tripx_desktop.gif"
+			}
+		},
+		{
+			"name": "Burning Reels",
+			"gameID": "000502e0",
+			"logo": "/gambleclient/sizlav/assets/images/load.jpg",
+			"config": "/gambleclient/sizlav/js/config.js",
+			"main": "/gambleclient/sizlav/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/sizlav_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/sizlav_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/sizlav_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/sizlav_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/sizlav_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/sizlav_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/sizlav_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/sizlav_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/sizlav_desktop.gif"
+			}
+		},
+		{
+			"name": "Frozen 7's",
+			"gameID": "00050260",
+			"logo": "/gambleclient/cold7/assets/images/load.jpg",
+			"config": "/gambleclient/cold7/js/config.js",
+			"main": "/gambleclient/cold7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/cold7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/cold7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/cold7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/cold7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/cold7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/cold7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "20 Winlines",
+						"description_2": "No Scatter",
+						"description_3": "No Joker"
+					},
+					"de": {
+						"description_1": "20 Winlines",
+						"description_2": "Kein Scatter",
+						"description_3": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/cold7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/cold7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/cold7_desktop.gif"
+			}
+		},
+		{
+			"name": "Wanted Bullets",
+			"gameID": "00050170",
+			"logo": "/gambleclient/hotbu/assets/images/load.jpg",
+			"config": "/gambleclient/hotbu/js/config.js",
+			"main": "/gambleclient/hotbu/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Many Bullets!"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/hotbu_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotbu_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/hotbu_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Many Bullets!"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/hotbu_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotbu_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/hotbu_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/hotbu_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotbu_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/hotbu_desktop.gif"
+			}
+		},
+		{
+			"name": "Diamonds on Fire",
+			"gameID": "000501e0",
+			"logo": "/gambleclient/hotdia/assets/images/load.jpg",
+			"config": "/gambleclient/hotdia/js/config.js",
+			"main": "/gambleclient/hotdia/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/hotdia_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotdia_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/hotdia_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/hotdia_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotdia_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/hotdia_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol expand"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolexpansion"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/hotdia_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotdia_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/hotdia_desktop.gif"
+			}
+		},
+		{
+			"name": "Royal Crown",
+			"gameID": "00050230",
+			"logo": "/gambleclient/royjew/assets/images/load.jpg",
+			"config": "/gambleclient/royjew/js/config.js",
+			"main": "/gambleclient/royjew/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/royjew_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/royjew_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/royjew_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/royjew_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/royjew_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/royjew_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/royjew_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/royjew_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/royjew_desktop.gif"
+			}
+		},
+		{
+			"name": "Joker Star",
+			"gameID": "00054010",
+			"logo": "/gambleclient/joks/assets/images/load.jpg",
+			"config": "/gambleclient/joks/js/config.js",
+			"main": "/gambleclient/joks/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/joks_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/joks_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/joks_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/joks_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/joks_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/joks_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/joks_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/joks_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/joks_desktop.gif"
+			}
+		},
+		{
+			"name": "Mystery Rings",
+			"gameID": "000501f0",
+			"logo": "/gambleclient/baror/assets/images/load.jpg",
+			"config": "/gambleclient/baror/js/config.js",
+			"main": "/gambleclient/baror/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/baror_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/baror_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/baror_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/baror_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/baror_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/baror_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/baror_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/baror_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/baror_desktop.gif"
+			}
+		},
+		{
+			"name": "Cold Fire",
+			"gameID": "000502c0",
+			"logo": "/gambleclient/firice/assets/images/load.jpg",
+			"config": "/gambleclient/firice/js/config.js",
+			"main": "/gambleclient/firice/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/firice_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/firice_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/firice_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/firice_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/firice_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/firice_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5x4 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/firice_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/firice_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/firice_desktop.gif"
+			}
+		},
+		{
+			"name": "4 Wins",
+			"gameID": "00054020",
+			"logo": "/gambleclient/fourwins/assets/images/load.jpg",
+			"config": "/gambleclient/fourwins/js/config.js",
+			"main": "/gambleclient/fourwins/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/fourwins_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/fourwins_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/fourwins_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/fourwins_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/fourwins_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/fourwins_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/fourwins_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/fourwins_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/fourwins_desktop.gif"
+			}
+		},
+		{
+			"name": "Beetle Dance",
+			"gameID": "00050370",
+			"logo": "/gambleclient/beedan/assets/images/load.jpg",
+			"config": "/gambleclient/beedan/js/config.js",
+			"main": "/gambleclient/beedan/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Beetle doubles SG winnings"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Käfer verdoppelt SG Gewinne"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/beedan_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/beedan_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/beedan_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Beetle doubles SG winnings"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Käfer verdoppelt SG Gewinne"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/beedan_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/beedan_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/beedan_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Beetle doubles SG winnings"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Käfer verdoppelt SG Gewinne"
+
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/beedan_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/beedan_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/beedan_desktop.gif"
+			}
+		},
+		{
+			"name": "Gold of Pelican",
+			"gameID": "00050110",
+			"logo": "/gambleclient/pelik/assets/images/load.jpg",
+			"config": "/gambleclient/pelik/js/config.js",
+			"main": "/gambleclient/pelik/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/pelik_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/pelik_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/pelik_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/pelik_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/pelik_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/pelik_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbol keep"
+					},
+					"de": {
+						"description_1": "50 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter/Joker",
+						"description_4": "Symbolhalten"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/pelik_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/pelik_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/pelik_desktop.gif"
+			}
+		},
+		{
+			"name": "Hot Reels 777",
+			"gameID": "00050290",
+			"logo": "/gambleclient/burn7/assets/images/load.jpg",
+			"config": "/gambleclient/burn7/js/config.js",
+			"main": "/gambleclient/burn7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/burn7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burn7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/burn7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/burn7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burn7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/burn7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/burn7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burn7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/burn7_desktop.gif"
+			}
+		},
+		{
+			"name": "Super Liner 27",
+			"gameID": "00054230",
+			"logo": "/gambleclient/suplin/assets/images/load.jpg",
+			"config": "/gambleclient/suplin/js/config.js",
+			"main": "/gambleclient/suplin/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/suplin_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/suplin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/suplin_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/suplin_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/suplin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/suplin_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 / 27 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/suplin_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/suplin_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/suplin_desktop.gif"
+			}
+		},
+		{
+			"name": "Dolphin's Treasure",
+			"gameID": "000502f0",
+			"logo": "/gambleclient/dolpar/assets/images/load.jpg",
+			"config": "/gambleclient/dolpar/js/config.js",
+			"main": "/gambleclient/dolpar/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/dolpar_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/dolpar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/dolpar_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/dolpar_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/dolpar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/dolpar_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/dolpar_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/dolpar_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/dolpar_desktop.gif"
+			}
+		},
+		{
+			"name": "Poseidon's Paradise",
+			"gameID": "000501d0",
+			"logo": "/gambleclient/neptre/assets/images/load.jpg",
+			"config": "/gambleclient/neptre/js/config.js",
+			"main": "/gambleclient/neptre/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/neptre_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/neptre_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/neptre_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/neptre_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/neptre_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/neptre_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/neptre_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/neptre_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/neptre_desktop.gif"
+			}
+		},
+		{
+			"name": "Apanachi's Gold",
+			"gameID": "00054060",
+			"logo": "/gambleclient/apang/assets/images/load.jpg",
+			"config": "/gambleclient/apang/js/config.js",
+			"main": "/gambleclient/apang/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "9 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker = Scatter"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker = Scatter"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/apang_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/apang_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/apang_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "9 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker = Scatter"
+					},
+					"de": {
+						"description_1": "9 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker = Scatter"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/apang_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/apang_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/apang_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "9 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker = Scatter"
+					},
+					"de": {
+						"description_1": "9 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker = Scatter"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/apang_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/apang_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/apang_desktop.gif"
+			}
+		},
+		{
+			"name": "Galaxy",
+			"gameID": "00050190",
+			"logo": "/gambleclient/planet/assets/images/load.jpg",
+			"config": "/gambleclient/planet/js/config.js",
+			"main": "/gambleclient/planet/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/planet_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/planet_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/planet_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/planet_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/planet_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/planet_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/planet_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/planet_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/planet_desktop.gif"
+			}
+		},
+		{
+			"name": "Running Joker",
+			"gameID": "000542c0",
+			"logo": "/gambleclient/jokrun/assets/images/load.jpg",
+			"config": "/gambleclient/jokrun/js/config.js",
+			"main": "/gambleclient/jokrun/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/jokrun_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jokrun_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/jokrun_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/jokrun_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jokrun_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/jokrun_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/jokrun_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jokrun_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/jokrun_desktop.gif"
+			}
+		},
+		{
+			"name": "Loony Fruits",
+			"gameID": "00050250",
+			"logo": "/gambleclient/funfru/assets/images/load.jpg",
+			"config": "/gambleclient/funfru/js/config.js",
+			"main": "/gambleclient/funfru/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/funfru_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/funfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/funfru_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/funfru_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/funfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/funfru_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "All directions",
+						"description_3": "No Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "Alle Richtungen",
+						"description_3": "Kein Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/funfru_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/funfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/funfru_desktop.gif"
+			}
+		},
+		{
+			"name": "Mystery",
+			"gameID": "00054280",
+			"logo": "/gambleclient/myster/assets/images/load.jpg",
+			"config": "/gambleclient/myster/js/config.js",
+			"main": "/gambleclient/myster/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/myster_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myster_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/myster_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/myster_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myster_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/myster_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/myster_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/myster_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/myster_desktop.gif"
+			}
+		},
+				{
+			"name": "Lucky Seven",
+			"gameID": "00054030",
+			"logo": "/gambleclient/lucky7/assets/images/load.jpg",
+			"config": "/gambleclient/lucky7/js/config.js",
+			"main": "/gambleclient/lucky7/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/lucky7_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucky7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/lucky7_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/lucky7_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucky7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/lucky7_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/lucky7_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucky7_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/lucky7_desktop.gif"
+			}
+		},
+		{
+			"name": "Monkey's Dance",
+			"gameID": "000501a0",
+			"logo": "/gambleclient/jungda/assets/images/load.jpg",
+			"config": "/gambleclient/jungda/js/config.js",
+			"main": "/gambleclient/jungda/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/jungda_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jungda_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/jungda_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/jungda_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jungda_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/jungda_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter Selection",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatterauswahl",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/jungda_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/jungda_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/jungda_desktop.gif"
+			}
+		},
+		{
+			"name": "Fruit Cocktail",
+			"gameID": "000502b0",
+			"logo": "/gambleclient/frucoc/assets/images/load.jpg",
+			"config": "/gambleclient/frucoc/js/config.js",
+			"main": "/gambleclient/frucoc/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/frucoc_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/frucoc_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/frucoc_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in Scattergame"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im Scattergame"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/frucoc_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/frucoc_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/frucoc_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in Scattergame"
+
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im Scattergame"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/frucoc_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/frucoc_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/frucoc_desktop.gif"
+			}
+		},
+		{
+			"name": "Burning Fruits",
+			"gameID": "00054070",
+			"logo": "/gambleclient/burnf/assets/images/load.jpg",
+			"config": "/gambleclient/burnf/js/config.js",
+			"main": "/gambleclient/burnf/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/burnf_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burnf_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/burnf_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/burnf_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burnf_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/burnf_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "Low Risk",
+						"description_3": "Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/burnf_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/burnf_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/burnf_desktop.gif"
+			}
+		},
+		{
+			"name": "Hot Fruits",
+			"gameID": "000540f0",
+			"logo": "/gambleclient/hotfru/assets/images/load.jpg",
+			"config": "/gambleclient/hotfru/js/config.js",
+			"main": "/gambleclient/hotfru/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/hotfru_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/hotfru_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/hotfru_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/hotfru_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Scattergames",
+						"description_4": "Joker in SG"
+
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Scattergames",
+						"description_4": "Joker im SG"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/hotfru_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hotfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/hotfru_desktop.gif"
+			}
+		},
+		{
+			"name": "Magic Fruits",
+			"gameID": "00054240",
+			"logo": "/gambleclient/magfru/assets/images/load.jpg",
+			"config": "/gambleclient/magfru/js/config.js",
+			"main": "/gambleclient/magfru/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "No Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/magfru_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/magfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/magfru_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/magfru_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/magfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/magfru_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Reels",
+						"description_3": "Multiplier",
+						"description_4": "No Scatter/Joker"
+					},
+					"de": {
+						"description_1": "5 Winlines",
+						"description_2": "3 Walzen",
+						"description_3": "Multiplikator",
+						"description_4": "Kein Scatter/Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/magfru_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/magfru_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/magfru_desktop.gif"
+			}
+		},
+		{
+			"name": "Golden Cards",
+			"gameID": "00050180",
+			"logo": "/gambleclient/golac/assets/images/load.jpg",
+			"config": "/gambleclient/golac/js/config.js",
+			"main": "/gambleclient/golac/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/golac_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/golac_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/golac_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/golac_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/golac_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/golac_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker multiplies"
+					},
+					"de": {
+						"description_1": "5 / 10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker multipliziert"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/golac_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/golac_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/golac_desktop.gif"
+			}
+		},
+		{
+			"name": "Thor's Victory",
+			"gameID": "00050140",
+			"logo": "/gambleclient/hthor/assets/images/load.jpg",
+			"config": "/gambleclient/hthor/js/config.js",
+			"main": "/gambleclient/hthor/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/hthor_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hthor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/hthor_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/hthor_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hthor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/hthor_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Reels",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					},
+					"de": {
+						"description_1": "10 Winlines",
+						"description_2": "5 Walzen",
+						"description_3": "Scatter",
+						"description_4": "Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/hthor_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/hthor_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/hthor_desktop.gif"
+			}
+		},
+		{
+			"name": "Winning Dollars",
+			"gameID": "00050120",
+			"logo": "/gambleclient/lucdol/assets/images/load.jpg",
+			"config": "/gambleclient/lucdol/js/config.js",
+			"main": "/gambleclient/lucdol/js/main.min.js",
+			"phone": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 142,
+				"thumbnail": "/assets/content/images/thumbnails/phone/lucdol_phone.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucdol_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/phone/lucdol_phone.gif"
+			},
+			"tablet": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 277,
+				"thumbnail": "/assets/content/images/thumbnails/tablet/lucdol_tablet.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucdol_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/tablet/lucdol_tablet.gif"
+			},
+			"desktop": {
+				"description": {
+					"en": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Reels",
+						"description_3": "No Scatter",
+						"description_4": "No Joker"
+					},
+					"de": {
+						"description_1": "25 Winlines",
+						"description_2": "4 Walzen",
+						"description_3": "Kein Scatter",
+						"description_4": "Kein Joker"
+					}
+				},
+				"thumbnail_width": 327,
+				"thumbnail": "/assets/content/images/thumbnails/desktop/lucdol_desktop.png",
+				"thumbnail_embedded": "/assets/content/images/embed-thumbnails/desktop/lucdol_desktop.png",
+				"thumbnail_selected": "/assets/content/images/thumbnails/desktop/lucdol_desktop.gif"
+			}
+		}
+	]
+}

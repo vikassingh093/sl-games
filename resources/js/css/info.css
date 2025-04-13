@@ -1,0 +1,97 @@
+.modal-window-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000C20;
+    opacity: 0.88;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-info__scale-cont {
+    position: relative;
+    transform-origin: 50% 20vh;
+    width: 1060px;
+    height: 672px;
+}
+
+.modal-window-info__text {
+    position: absolute;
+    width: 220px;
+    left: 336px;
+    align-items: center;
+    text-align: center;
+    font-family: 'MyriadPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: normal;
+    height: 25px;
+    font-size: 26px;
+    color: #FFAF24;
+    white-space: normal;
+    z-index: 100;
+}
+
+.modal-window-info__user {
+    top: 210px;
+}
+
+.modal-window-info__pass {
+    top: 370px;
+}
+
+.modal-window-info__change {
+    top: 317px;
+}
+
+.modal-window-info__done {
+    top: 158px;
+}
+
+.modal-window-info__del {
+    top: 478px;
+}
+
+.modal-window-info-modal {
+    position: absolute;
+    z-index: 200;
+}
+
+.modal-window-info__no {
+    top: 373px;
+    left: 584px!important;
+}
+
+.modal-window-info__yes {
+    top: 373px;
+    left: 219px!important;
+}
+
+.modal-window-info__close {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    left: 973px;
+    top: 42px;
+    z-index: 10;
+}
+
+.modal-window-info__btn {
+    position: absolute;
+    cursor: pointer;
+    width: 257px;
+    height: 90px;
+    z-index: 10;
+    left: 715px;
+}
+
+.modal-window-info__back {
+    left: 0;
+    position: absolute;
+    width: 1060px;
+    height: 672px;
+}

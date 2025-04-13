@@ -1,0 +1,1652 @@
+<style>
+    :root {
+        --caption_color:  #f6e18e;
+        --range_color: #5b71d0;
+        --element_color: #130029;
+        --active_color: #ff7200;
+    }
+    @font-face {
+        font-family: "Futura";
+        src: url("{{{font_medium}}}") format("opentype");
+        font-display: block;
+    }
+    @font-face {
+        font-family: "Futura";
+        font-weight: bold;
+        src: url("{{{font_heavy}}}") format("opentype");
+        font-display: block;
+    }
+
+    * {
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+
+    p {
+        margin: 0 0 1em;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .popup-overlay {
+        position: relative;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 100;
+        right: 0;
+        background-color: rgba(17, 0, 38, 0.85);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        font-size: 22px;
+        line-height: 1.25;
+        color: #ccc;
+    }
+    @media (max-width: 750px) {
+        .popup-overlay {
+            font-size: 16px;
+        }
+    }
+    .popup-overlay *::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    .popup-overlay *::-webkit-scrollbar-track {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+    }
+    .popup-overlay *::-webkit-scrollbar-thumb {
+        background-color: #FFFC00;
+        border-radius: 3px;
+    }
+
+    .popup {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.00);
+        position: relative;
+    }
+    .popup__close-btn {
+        position: absolute;
+        right: 6px;
+        top: 2px;
+        background: url("{{{tab_CloseButton_image}}}") no-repeat center center/cover;
+        width: 50px;
+        height: 50px;
+    }
+    .popup__close-btn:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .tabs-data {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .tabs-data__content-holder {
+        overflow: hidden;
+        height: 93%;
+    }
+    .tabs-data__tab-item {
+        display: none;
+        flex-direction: column;
+        height: 100%;
+    }
+    .tabs-data__tab-item--active {
+        display: flex;
+    }
+    .tabs-data__tab-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.55em;
+        color: var(--caption_color);
+        flex-shrink: 0;
+        text-align: center;
+        background-color: rgba(7, 0, 18, 0.9);
+    }
+    @media (max-width: 750px) {
+        .tabs-data__tab-title  {
+            padding: 12px; 
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+    }
+
+    .tabs-data__tab-content {
+        overflow: auto;
+        margin: 2px 10px;
+        padding: 10px;
+        height: 100%;
+    }
+    @media (max-width: 750px) {
+        .tabs-data__tab-content {
+            padding: 10px;
+        }
+    }
+
+    .bet_tab_content {
+        margin: 0% 5%;
+    }
+    @media all and (orientation:portrait) {
+        .bet_tab_content {
+            margin: 0px;
+        }
+    }
+
+    .tabs-data__menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        bottom: -100px;
+    }
+    .tabs-data__menu-item {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tabs-data__menu-item.sidebar_button_hide {
+        display: none;
+    }
+    .tabs-data__menu-item:before {
+        content: "";
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background: url("{{{tab_SettingsButton_image}}}") no-repeat center center/contain;
+    }
+    .tabs-data__menu-item:hover {
+        cursor: pointer;
+    }
+
+    .tabs-data__menu-item.tab-icon--history:before {
+        background-image: url("{{{tab_HistoryButton_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--keypad_guide:before {
+        background-image: url("{{{tab_KeypadButton_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--rules:before {
+        background-image: url("{{{tab_RulesButton_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--paytable:before {
+        background-image: url("{{{tab_PaytableButton_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--settings:before {
+        background-image: url("{{{tab_SettingsButton_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--bets:before {
+        background-image: url("{{{tab_BetSettingsButton_image}}}");
+    }
+
+    .tabs-data__menu-item.tab-icon--history.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_HistoryButton_Selected_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--keypad_guide.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_KeypadButton_Selected_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--rules.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_RulesButton_Selected_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--paytable.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_PaytableButton_Selected_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--settings.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_SettingsButton_Selected_image}}}");
+    }
+    .tabs-data__menu-item.tab-icon--bets.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_BetSettingsButton_Selected_image}}}");
+    }
+
+
+
+    .history-table {
+        width: 100%;
+        text-align: left;
+        border: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    .history-table tr:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .history-table tr:first-child {
+        background-color: rgba(255, 252, 0, 0.2);
+    }
+    .history-table th {
+        color: #fff;
+    }
+    .history-table td, .history-table th {
+        padding: 5px;
+    }
+
+    .pagination {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .pagination__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin: 5px;
+        height: 2em;
+        width: 2em;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .pagination__item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
+    .pagination__item--active {
+        pointer-events: none;
+        background-color: rgba(255, 252, 0, 0.5);
+    }
+
+    .keypad_guide-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .keypad_guide-block__title {
+        padding: 5px 0;
+        width: 100%;
+        text-transform: uppercase;
+        color: var(--caption_color);
+        text-align: center;
+        font-size: 24px;
+    }
+    .keypad_guide-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .keypad_guide-item__title {
+        padding: 0px;
+        font-size: 22px;
+        color: azure;
+    }
+    .keypad_guide-item__desc {
+        padding: 0px 0;
+        font-size: 20px;
+    }
+
+
+    .rules-list {
+        margin: 0;
+        padding-left: 2px;
+    }
+    .rules-list li {
+        padding-bottom: 5px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        text-align: justify;
+        font-size: 24px;
+    }
+    .rules-item__image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    @media all and (orientation:portrait) {
+        .rules-item__image img {
+            width: 80%;
+        }
+    }
+    .rules-item__title {
+        padding: 5px 0;
+        width: 100%;
+        text-transform: uppercase;
+        color: var(--caption_color);
+        text-align: center !important;
+    }
+
+    .feature-item {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0;
+        overflow: hidden;
+    }
+    .feature-item__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #fff;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .feature-item__image {
+        width: 40%;
+        padding: 0 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+    }
+    @media (max-width: 750px) and (orientation:portrait) {
+        .feature-item__image {
+            width: 100%;
+            max-width: none;
+        }
+    }
+    .feature-item__image{
+        align-items: center;
+    }
+    .feature-item__image img {
+        max-width: 100%;
+        width: 80%;
+    }
+    .feature-item__desc {
+        width: 60%;
+        align-self: center;
+        font-size: 18pt;
+        padding-right: 2vw;
+        padding-left:  2vw;
+        text-align: justify;
+    }
+    @media (max-width: 750px) and (orientation:portrait) {
+        .feature-item__desc {
+            width: 100%;
+        }
+    }
+    .feature-item__mark-text {
+    color: {{feature_item_colored_text}};
+    }
+
+
+    .bets-settings {
+        list-style: none;
+        margin: 2%;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        height: 40%;
+    }
+
+    @media all and (orientation:portrait) {
+        .bets-settings {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 5%;
+            grid-row-gap: 9%;
+        }
+    }
+    .bets-settings__item {
+        background-color: var(--active_color);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--element_color);
+        font-size: 1.25em;
+        font-weight: 700;
+        box-shadow: 0px 0px 4px 2px var(--active_color);
+    }
+
+    .bet_item_selected {
+        color: #101030;
+        background-color: #fff;
+        cursor: pointer;
+        box-shadow: 0px 0px 4px 2px #fff;
+    }
+
+    .checkbox {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 0.5em;
+    }
+    @media (max-width: 500px) {
+        .checkbox {
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+    }
+    .checkbox input {
+        display: none;
+    }
+    .checkbox__design {
+        display: inline-block;
+        width: 68px;
+        height: 30px;
+        margin-left: 10px;
+        overflow: hidden;
+        position: relative;
+        background: grey;
+        border-radius: 100px;
+    }
+
+    .checkbox__design:after {
+        content: '';
+        position: absolute;
+        width: 45%;
+        height: 80%;
+        top: 10%;
+        left: 4px;
+        background: #fff;
+        border-radius: 90px;
+        transition: 0.3s;
+        box-shadow: 0px 0px 8px 1px #fff;
+    }
+
+    input:disabled + .checkbox__design {
+        opacity: 0.6;
+        background: #555555;
+    }
+    input:checked:disabled + .checkbox__design {
+        opacity: 0.6;
+        background: #555555;
+    }
+    input:checked:disabled + .checkbox__design {
+        opacity: 0.6;
+    }
+
+    input:checked + .checkbox__design {
+        background: #ff7200;
+    }
+
+    input:checked + .checkbox__design:after {
+        left: calc(100% - 4px);
+        transform: translateX(-100%);
+    }
+
+    .checkbox__design:active:after {
+        width: 50%;
+    }
+
+    .checkbox__design {
+        width: 60px;
+        height: 32px;
+        background: #2b345f;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .checkbox__label {
+        padding-left: 0px;
+        width: 80%;
+        text-align: left;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        color: var(--caption_color);
+        font-size: 14pt;
+    }
+
+    @media (max-width: 750px) {
+        .checkbox__design {
+            width: 44px;
+            height: 26px;
+        }
+        .checkbox__label {
+            padding-left: 0px;
+            width: 80%;
+            text-align: center;
+            margin-bottom: 6px;
+            color: var(--caption_color);
+        }
+    }
+
+    .disabled_text_opacity {
+        opacity: 0.6;
+    }
+
+    .range {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .range_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        border-radius: 12px;
+        align-items: flex-end;
+        padding: 5px 0px;
+    }
+    @media (max-width: 550px) {
+        .range_container {
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+    .range_container_body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .range input {
+        -webkit-appearance: none !important;
+        width: 60%;
+        height: 8px;
+        background: #ff7200;
+        background-color: #ff7200;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+    .range input::-webkit-slider-thumb {
+        height: 24px;
+        width: 12px;
+        border-radius: 25%;
+        background: #fff;
+        color: #43e5f7;
+        cursor: pointer;
+        -webkit-appearance: none !important;
+        margin-top: -6px;
+        box-shadow: 0px 0px 4px 1px #fff;
+    }
+    .range input::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 10px;
+        -webkit-appearance: none !important;
+        color: #ff7200;
+        margin-top: -1px;
+    }
+    .range input:disabled {
+        opacity: 0.6;
+        background: #555555;
+    }
+    .range input:focus {
+        outline: none;
+    }
+    .range__label {
+        padding-left: 10px;
+        padding-right: 10px;
+        color: var(--range_color);
+        font-size: 18pt;
+        font-weight: bold;
+    }
+    .range__label_yellow {
+        padding: 10px;
+        color: var(--caption_color);
+        font-weight: bold;
+        font-size: 26pt;
+    }
+
+    @media (max-width: 750px) {
+        .range__label_yellow {
+            font-size: 38pt;
+
+        }
+    }
+
+    .range__label_top_caption {
+        padding: 0;
+        padding-right: 1em;
+        color: var(--caption_color);
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        font-size: 16pt;
+    }
+
+    @media (max-width: 540px) {
+        .range__label_top_caption {
+            padding: 6px 0;;
+        }
+    }
+
+    .range__label_top {
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        display: block;
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    @media (max-width: 750px) {
+        .range__label_top {
+            #padding-left: 10px;
+            #padding-bottom: 6px;
+        }
+    }
+
+    .settings_gradient {
+        display: block;
+        height: 4px;
+        margin-top: 2%;
+        position: relative;
+        width: 100%;
+        background: radial-gradient(ellipse farthest-side at center center, #2f315a, transparent);
+    }
+    @media (max-width: 550px) {
+        .settings_gradient {
+            margin-top: 25px;
+
+        }
+
+    }
+    @media (max-width: 750px) {
+        .range__label {
+            padding-left: 10px;
+            padding-right: 10px;
+            color: var(--range_color);
+            font-size: 18pt;
+            font-weight: bold;
+        }
+    }
+
+    .settings_checkbox_area {
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .win-lines-holder-disabled {
+        display: none;
+    }
+
+    .win-lines-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #fff;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .win-lines-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .win-lines-list li {
+        width: 20%;
+        padding-bottom: 3vw;
+    }
+    @media (max-width: 750px) {
+        .win-lines-list li {
+            width: 33%;
+            padding-bottom: 5vw;
+        }
+    }
+    @media (max-width: 500px) {
+        .win-lines-list li {
+            width: 50%;
+            padding-bottom: 8vw;
+        }
+    }
+
+    .win-lines-number {
+        font-size: 16pt;
+        color: gold;
+        font-family: "Futura";
+    }
+    .win-lines-item {
+        margin: 0% 1%;
+    }
+    .win-lines {
+        display: grid;
+    grid-template-columns: repeat({{{paytable_Winlines_Params_reels}}}, 1fr);
+    grid-template-rows: repeat({{{paytable_Winlines_Params_rows}}}, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    width: calc({{{paytable_Winlines_Params_base_width}}}vw + 2px);
+    height: calc({{{paytable_Winlines_Params_base_height}}}vw + 2px);
+    padding: 4px;
+    margin-bottom: 10%;
+    background-size: {{{paytable_Winlines_Params_base_size}}};
+    background-image: linear-gradient(to right, #fff 2px, transparent 2px), linear-gradient(to bottom, #fff 2px, transparent 2px);
+    }
+    @media (max-width: 750px) {
+        .win-lines {
+        background-size: {{{paytable_Winlines_Params_750px_size}}};
+    width: calc({{{paytable_Winlines_Params_750px_width}}}vw + 2px);
+    height: calc({{{paytable_Winlines_Params_750px_height}}}vw + 2px);
+    }
+    }
+    @media (max-width: 500px) {
+        .win-lines {
+        background-size: {{{paytable_Winlines_Params_500px_size}}};
+    width: calc({{{paytable_Winlines_Params_500px_width}}}vw + 2px);
+    height: calc({{{paytable_Winlines_Params_500px_height}}}vw + 2px);
+    }
+    }
+    .win-lines .cell {
+        background-color: #f9c266;
+    }
+
+    {{#paytable_WinlinesStyles}}
+    .win-lines {{paytable_Winlines_class}} {
+    grid-area: {{{paytable_Winlines_gridArea}}};
+    }
+    {{/paytable_WinlinesStyles}}
+
+    .paytable-points__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #fff;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .paytable-points__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .paytable-points__item {
+        display: flex;
+        align-items: center;
+        width: 23%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    @media (max-width: 1350px) {
+        .paytable-points__item {
+            width: 33%;
+        }
+    }
+    @media (max-width: 1000px) {
+        .paytable-points__item {
+            width: 50%;
+        }
+    }
+    @media (max-width: 500px) {
+        .paytable-points__item {
+            width: 100%;
+        }
+    }
+    .paytable-points__item-icon {
+        flex-grow: 0;
+        margin: 5% 0;
+    }
+    .paytable-points__item-icon img {
+        width: 100%;
+    }
+    .paytable-points__item-rate {
+        list-style: none;
+        margin: 0;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding: 0 1em;
+        width: 50%;
+    }
+    .paytable-points__rate-row {
+        margin: 1px 0;
+        font-size: 22px;
+    }
+    .paytable-points__rate-row span {
+        display: inline-block;
+        min-width: 38px;
+        margin-right: -15px;
+        color: #FFDE38;
+    }
+    .paytable-points__rate-row strong {
+        color: beige;
+    }
+
+
+
+
+
+    /*# sourceMappingURL=main.css.map */
+
+    .main {
+        height: {{sidebar_contentContainer_height}};
+        width: 200%;
+        left:100%;
+        position: absolute;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        font-family: "Futura";
+    }
+
+    @media (orientation: landscape){
+        .main {
+            height: 100%;
+        }
+    }
+
+    .sidebar_album {
+        height: 100%;
+        width: 4%;
+        left:100%;
+        top: 0px;
+        float:left;
+    }
+    .sidebar_album_right_part {
+        height: 100%;
+        width: 46%;
+        left:100%;
+        top: 0px;
+        float:left;
+    }
+    .menu_album_style {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        float:right;
+    }
+    .menu_album_items {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        float:left;
+        background-color: rgba(10, 0, 29, 0.9);
+        padding-top: {{sidebar_menu_album_items_padding-top}};
+    }
+    @media (orientation: landscape) and (max-height: 320px) {
+        .menu_album_items {
+            padding-top: 10px;
+        }
+    }
+    .menu_album_item {
+        width: 100%;
+        height: 17%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0.0em;
+    }
+
+    .menu_album_item:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background: url("{{{tab_CloseButton_image}}}") no-repeat center center/contain;
+    }
+    .menu_album_item.tab-icon--back:before {
+        background-image: url("{{{tab_CloseButton_image}}}");
+    }
+    .menu_album_item.tab-icon--settings:before {
+        background-image: url("{{{tab_SettingsButton_image}}}");
+    }
+    .menu_album_item.tab-icon--paytable:before {
+        background-image: url("{{{tab_PaytableButton_image}}}");
+    }
+    .menu_album_item.tab-icon--rules:before {
+        background-image: url("{{{tab_RulesButton_image}}}");
+    }
+    .menu_album_item.tab-icon--keypad:before {
+        background-image: url("{{{tab_KeypadButton_image}}}");
+    }
+    .menu_album_item.tab-icon--betSettings:before {
+        background-image: url("{{{tab_BetSettingsButton_image}}}");
+    }
+    .menu_album_item.tab-icon--history:before {
+        background-image: url("{{{tab_HistoryButton_image}}}");
+    }
+    .menu_album_item.tab-icon--cash:before {
+        background-image: url("{{{tab_CashButton_image}}}");
+    }
+    .menu_album_item.tab-icon--home:before {
+        background-image: url("{{{tab_HomeButton_image}}}");
+    }
+
+    .menu_album_item.tab-icon--cash.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_CashButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--home.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_HomeButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--history.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_HistoryButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--keypad.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_KeypadButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--rules.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_RulesButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--paytable.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_PaytableButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--settings.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_SettingsButton_Selected_image}}}");
+    }
+    .menu_album_item.tab-icon--betSettings.tabs-data__menu-item--active:before {
+        background-image: url("{{{tab_BetSettingsButton_Selected_image}}}");
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 50%;
+        left:100%;
+        top: 0px;
+        float:left;
+    }
+    .sidebar_left_part {
+        width: 35%;
+        height: 100%;
+        top: 0px;
+        float:left;
+    }
+    .menu_item.sidebar_button_hide {
+        display: none;
+    }
+    .menu_album_item.sidebar_button_hide {
+        display: none;
+    }
+    .menu_style {
+        width: 65%;
+        height: 100%;
+        top: 0px;
+        float:right;
+    }
+    .menu_logo {
+        width: 100%;
+        height: 30%;
+        display: flex;
+    }
+    .menu_items {
+        width: 100%;
+        height: 70%;
+        top: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        float:left;
+        background-color: rgba(10, 0, 29, 0.9);
+    }
+
+    .menu_item {
+        width: 100%;
+        height: 11%;
+        display: flex;
+        align-items: flex-start;
+        padding: 0.2em;
+    }
+
+    .menu_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 100%;
+    }
+
+    .menu_img {
+        height: 100%;
+        width: auto;
+    }
+
+    .image_logo {
+        height: 100%;
+        width: auto;
+        opacity: 0.7;
+        display: block;
+        mix-blend-mode: screen;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo_container {
+        position: absolute;
+        top: -1px;
+        left: calc(17.5% + 2px);
+        height: 30%;
+        width: 32.5%;
+    }
+
+    .logo_empty_space {
+        height: 100%;
+        flex: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(10, 0, 29, 0.9);
+    }
+
+    .image_logo_mask {
+        height: 100%;
+        width: auto;
+        opacity: 0.9;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu_text {
+        font-size: 1.1em;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 75%;
+        height: 100%;
+        margin-left: 4%;
+        color: #ffeb67;
+    }
+
+    .menu_text_back {
+        font-size: 1.2em;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 75%;
+        height: 100%;
+        margin-left: 5%;
+        color: #ffffff;
+    }
+
+    .settings_betsValuesArea {
+        display: flex;
+        width:100%;
+        align-items: flex-end;
+    }
+    @media (max-width: 1350px) {
+        .settings_betsValuesArea {
+        }
+    }
+
+    .settings_valueWithCaption {
+        display: flex;
+        width:100%;
+        color:red;
+        margin: 2px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .settings_valueWithCaption_value {
+        background-color: var(--element_color);
+        border-radius: 300px;
+        width: auto;
+        text-align: center;
+        align-items: center;
+        color: white;
+        #height: 100%;
+        margin: 5px 15px;
+        flex-direction: row;
+        font-size: 16pt;
+        font-weight: bold;
+        #height: 35%;
+    }
+    @media (max-width: 750px) {
+        .settings_valueWithCaption_value {
+            #height: 16%;
+            margin: 5px 10px;
+        }
+    }
+
+    .settings_valueWithCaption_currency {
+        color: var(--caption_color);
+        margin-left: 6px;
+    }
+
+    @media (orientation: landscape) and (max-height: 320px) {
+        .main {
+            height: 72%;
+        }
+    }
+
+    .enablePortraitSidebar{
+        visibility: visible;
+    }
+    .disablePortraitSidebar{
+        visibility: hidden;
+    }
+
+    .enableAlbumSidebar{
+
+    }
+    .disableAlbumSidebar{
+        display: none;
+    }
+
+    .enableAlbumTabs{
+
+    }
+    .disableAlbumTabs{
+        display: none;
+    }
+
+    .tabsAlbumAnimateShow{
+        animation-duration: 1s;
+        animation-name: tabsAlbumAnimateShow;
+        animation-fill-mode: forwards;
+    }
+    .tabsAlbumAnimateHide{
+        animation-duration: 1s;
+        animation-name: tabsAlbumAnimateHide;
+        animation-fill-mode: forwards;
+    }
+
+
+
+    .animateShowAlbumSidebar{
+        animation-duration: 1s;
+        animation-name: animateShowAlbumSidebar;
+        animation-fill-mode: forwards;
+    }
+    .showAlbumSidebar{
+        left: -100%;
+    }
+    .animateHideAlbumSidebar{
+        animation-duration: 1s;
+        animation-name: animateHideAlbumSidebar;
+        animation-fill-mode: forwards;
+    }
+
+
+    .animateShowPortraitTabs{
+        animation-duration: 1s;
+        animation-name: animateShowPortraitTabs;
+        animation-fill-mode: forwards;
+    }
+    .animateHidePortraitTabs{
+        animation-duration: 1s;
+        animation-name: animateHidePortraitTabs;
+        animation-fill-mode: forwards;
+    }
+
+    .animateShowPortraitSidebar{
+        animation-duration: 1s;
+        animation-name: animateShowPortraitSidebar;
+        animation-fill-mode: forwards;
+    }
+    .showPortraitSidebar{
+        left: 0%;
+    }
+
+    .animateHidePortraitSidebar{
+        animation-duration: 1s;
+        animation-name: animateHidePortraitSidebar;
+        animation-fill-mode: forwards;
+    }
+    .tabsBottomPanelAnimateShow{
+        animation-duration: 1s;
+        animation-name: tabsBottomPanelAnimateShow;
+        animation-fill-mode: forwards;
+    }
+    .tabsBottomPanelAnimateHide{
+        animation-duration: 1s;
+        animation-name: tabsBottomPanelAnimateHide;
+        animation-fill-mode: forwards;
+    }
+    .enableTabsBottomPanel{
+        bottom: 0px;
+    }
+    .disableTabsBottomPanel{
+        display: none;
+    }
+
+    .enableTabsCloseButton{
+
+    }
+    .disableTabsCloseButton{
+        display: none;
+    }
+
+    .enableAlbumRightPartButton{
+
+    }
+    .disableAlbumRightPartButton{
+        display: none;
+    }
+
+    @keyframes animateShowAlbumSidebar {
+        from {left: -110%;}
+        to {left: -100%;}
+    }
+    @keyframes animateHideAlbumSidebar {
+        from {left: -100%;}
+        to {left: -110%;}
+    }
+    @keyframes tabsAlbumAnimateShow {
+        from {left: 100%;}
+        to {left: 0%;}
+    }
+    @keyframes tabsAlbumAnimateHide {
+        from {left: 0%;}
+        to {left: 100%;}
+    }
+    @keyframes animateShowPortraitTabs {
+        from {left: 0%;}
+        to {left: -100%;}
+    }
+    @keyframes animateHidePortraitTabs {
+        from {left: -100%;}
+        to {left: -200%;}
+    }
+    @keyframes animateShowPortraitSidebar {
+        from {left: 100%;}
+        to {left: 0%;}
+    }
+    @keyframes animateHidePortraitSidebar {
+        from {left: 0%;}
+        to {left: 100%;}
+    }
+    @keyframes tabsBottomPanelAnimateShow {
+        from {bottom: -100px;}
+        to {bottom: 0px;}
+    }
+    @keyframes tabsBottomPanelAnimateHide {
+        from {bottom: 0px;}
+        to {bottom: -100px;}
+    }
+
+
+</style>
+
+<div class="main main_panel">
+    <div class="sidebar sidebar_portrait_panel">
+        <div class="sidebar_left_part sidebar_portrait_LeftPartBtn"></div>
+        <div class="menu_style">
+            <div class="menu_logo">
+                <div class="logo_empty_space"></div>
+                <img class="image_logo_mask" src="{{sidebar_LogoMask_image}}" alt="Image">
+                <div class="logo_container">
+                    <img class="image_logo" src="{{sidebar_Logo_image}}" alt="Image">
+                </div>
+                <div class="logo_empty_space"></div>
+            </div>
+
+            <div class="menu_items">
+                <div class="menu_item sidebar_portrait_BackBtn">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_BackButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text_back">{{sidebar_BackButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_item sidebar_portrait_SettingsBtn" data-name="settings">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_SettingsButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_SettingsButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_item sidebar_portrait_PaytableBtn" data-name="paytable">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_PaytableButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_PaytableButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_item sidebar_portrait_RulesBtn" data-name="rules">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_RulesButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_RulesButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_item sidebar_portrait_KeypadBtn" data-name="keypad_guide">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_KeypadButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_KeypadButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_item sidebar_portrait_BetSettingsBtn" data-name="bets">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_BetSettingsButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_BetSettingsButton_text}}</div>
+                </div>
+
+                <!--<div class="menu_item sidebar_item sidebar_portrait_HistoryBtn" data-name="history">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_HistoryButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_HistoryButton_text}}</div>
+                </div>-->
+
+                <div class="menu_item sidebar_portrait_CashBtn">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_CashButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_CashButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_portrait_HomeBtn">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_HomeButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_HomeButton_text}}</div>
+                </div>
+
+                <div class="menu_item sidebar_portrait_SweepStakesBtn">
+                    <div class="menu_icon">
+                        <img class="menu_img" src="{{sidebar_SweepStakesButton_image}}" alt="Image">
+                    </div>
+                    <div class="menu_text">{{sidebar_SweepStakesButton_text}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar_album sidebar_album_panel">
+        <div class="menu_album_style">
+            <div class="menu_album_items">
+                <div class="menu_album_item tab-icon--back sidebar_album_BackBtn"></div>
+                <div class="menu_album_item tab-icon--settings sidebar_album_SettingsBtn"></div>
+                <div class="menu_album_item tab-icon--paytable sidebar_album_PaytableBtn"></div>
+                <div class="menu_album_item tab-icon--rules sidebar_album_RulesBtn"></div>                
+                <div class="menu_album_item tab-icon--betSettings sidebar_album_BetSettingsBtn"></div>
+                <div class="menu_album_item tab-icon--keypad sidebar_album_KeypadBtn"></div>
+                <!--<div class="menu_album_item tab-icon--history sidebar_album_HistoryBtn"></div>-->                
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar_album_right_part sidebar_album_RightPartBtn"></div>
+
+    <div class="popup-overlay">
+        <div class="popup">
+            <div class="popup__close-btn"></div>
+
+            <div class="tabs-data">
+
+                <div class="tabs-data__content-holder">
+
+                    <!--  <div class="tabs-data__tab-item tab_HistoryContent" data-name="history">
+                        <div class="tabs-data__tab-title">{{tab_HistoryTitle_text}}</div>
+                        <div class="tabs-data__tab-content">
+                            <table class="history-table">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Transition</th>
+                                    <th>Bet</th>
+                                    <th>Profit</th>
+                                </tr>
+                                <tr>
+                                    <td>06:03:00</td>
+                                    <td>123123123</td>
+                                    <td>2.50</td>
+                                    <td>6.50</td>
+                                </tr>
+                                <tr>
+                                    <td>06:02:57</td>
+                                    <td>123454123</td>
+                                    <td>2.50</td>
+                                    <td>-2.50</td>
+                                </tr>
+                                <tr>
+                                    <td>06:03:00</td>
+                                    <td>123123123</td>
+                                    <td>2.50</td>
+                                    <td>6.50</td>
+                                </tr>
+                                <tr>
+                                    <td>06:02:57</td>
+                                    <td>123454123</td>
+                                    <td>2.50</td>
+                                    <td>-2.50</td>
+                                </tr>
+                            </table>
+                            <ul class="pagination">
+                                <li class="pagination__item">«</li>
+                                <li class="pagination__item">1</li>
+                                <li class="pagination__item pagination__item--active">2</li>
+                                <li class="pagination__item">3</li>
+                                <li class="pagination__item">»</li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                    <div class="tabs-data__tab-item tab_KeypadGuideContent" data-name="keypad_guide">
+                        <div class="tabs-data__tab-title">{{tab_KeypadGuideTitle_text}}</div>
+                        <div class="tabs-data__tab-content">
+                            <div class="keypad_guide-list">
+
+                                {{#keypadGuide}}
+                                <div class="keypad_guide-item">
+                                    <div class="keypad_guide-block__title">{{keypadGuide_SectionTitle_text}}</div>
+                                </div>
+                                <ul>
+                                    {{#keypadGuide_SectionItems}}
+                                    <li><div class="keypad_guide-item">
+                                        <div class="keypad_guide-item__image">
+                                            <img height="80" src="{{keypadGuide_SectionItemTexture_image}}">
+                                        </div>
+                                        <ul>
+                                            <li><div class="keypad_guide-item__title">{{keypadGuide_SectionItemTitle_text}}</div></li>
+                                            <li><div class="keypad_guide-item__desc">{{{keypadGuide_SectionItemDescription_text}}}</div></li>
+                                        </ul>
+                                    </div></li>
+                                    <span class="settings_gradient" style = "margin-top:0"></span>
+                                    {{/keypadGuide_SectionItems}}
+                                </ul>
+                                <br><br><br><br>
+                                {{/keypadGuide}}
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-data__tab-item tab_RulesContent" data-name="rules">
+                        <div class="tabs-data__tab-title">{{tab_RulesTitle_text}}</div>
+                        <div class="tabs-data__tab-content">
+                            <ul class="rules-list">
+                                {{#rules}}
+                                {{#rules_Item_title}}
+                                <li class="rules-item__title">{{{rules_Item_title}}}</li>
+                                {{/rules_Item_title}}
+
+                                {{#rules_Item_image}}
+                                <li class="rules-item__image">
+                                    <img src="{{rules_Item_image}}">
+                                </li>
+                                {{/rules_Item_image}}
+
+                                {{#rules_Item_text}}
+                                <li>{{{rules_Item_text}}}</li>
+                                {{/rules_Item_text}}
+                                {{/rules}}
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tabs-data__tab-item tab_PaytableContent" data-name="paytable">
+                        <div class="tabs-data__tab-title">{{tab_PaytableTitle_text}}</div>
+                        <div class="tabs-data__tab-content">
+
+                            {{#paytable_Features}}
+                            <div class="feature-item">
+                                <div class="feature-item__title">{{paytable_Features_title}}</div>
+                                <div class="feature-item__image">
+                                    <img src="{{paytable_Features_image}}" alt="">
+                                </div>
+                                <div class="feature-item__desc">{{{paytable_Features_description}}}</div>
+                            </div>
+                            {{/paytable_Features}}
+
+
+                            <div class="paytable-points">
+                                <div class="paytable-points__title">{{paytable_PayoutsTitle_text}}</div>
+                                <div class="paytable-points__list">
+
+                                    {{#paytable_Payouts}}
+                                    <div class="paytable-points__item">
+                                        <div class="paytable-points__item-icon"><img src="{{paytable_Payouts_image}}" alt=""></div>
+                                        <ul class="paytable-points__item-rate">
+                                            {{#paytable_Payouts_payout}}
+                                            <li class="paytable-points__rate-row"><span>{{paytable_Payouts_symbols}}</span><strong class="{{paytable_Payouts_class}}">{{payout_value}}</strong></li>
+                                            {{/paytable_Payouts_payout}}
+                                        </ul>
+                                    </div>
+                                    {{/paytable_Payouts}}
+
+                                </div>
+                            </div>
+
+                            <div class="win-lines-holder">
+                                <div class="win-lines-title">{{paytable_WinlinesTitle_text}}</div>
+                                <ul class="win-lines-list">
+                                    {{#paytable_WinlinesLines}}
+                                    <div class="win-lines-item">
+                                        <div class="win-lines-number">
+                                            {{paytable_WinlinesLineNumber}}
+                                        </div>
+                                        <div class="win-lines">
+                                            {{#paytable_WinlinesLineSymbols}}
+                                            <div class="cell {{paytable_WinlinesLineSymbols_class}}"></div>
+                                            {{/paytable_WinlinesLineSymbols}}
+                                        </div>
+                                    </div>
+                                    {{/paytable_WinlinesLines}}
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs-data__tab-item tab_SettingsContent" data-name="settings">
+                        <div class="tabs-data__tab-title">{{tab_SettingsTitle_text}}</div>
+                        <div class="tabs-data__tab-content">
+
+                            <span class="range__label_top_caption">{{settings_AudioSlider_text}}</span>
+                            <label class="range">
+                                <span class="range__label_yellow" style = "padding-bottom: 20px;"> - </span>
+                                <input type="range" class="settings_audio_slider" min="0" max="100" value="0">
+                                <span class="range__label_yellow"> + </span>
+                            </label>
+
+                            <span class="settings_gradient"></span>
+
+                            <span class="range__label_top_caption">{{settings_Options_title_text}}</span>
+                            <div class="settings_checkbox_area">
+
+                                <br><br><label class="checkbox">
+                                <span class="checkbox__label checkbox_text_ValuesInCoins">{{settings_ValuesInCoins_text}}</span>
+                                <input type="checkbox" class="checkbox_values_in_coins">
+                                <span class="checkbox__design"></span>
+                            </label>
+
+                                <br><br><label class="checkbox">
+                                <span class="checkbox__label checkbox_text_SpaceToSpin">{{settings_SpaceToSpin_text}}</span>
+                                <input type="checkbox" class="checkbox_space_spin">
+                                <span class="checkbox__design"></span>
+                            </label>
+
+                                <br><br><label class="checkbox">
+                                <span class="checkbox__label">{{settings_SplashScreen_text}}</span>
+                                <input type="checkbox" class="checkbox_splash_screen">
+                                <span class="checkbox__design"></span>
+                            </label>
+
+                                <br><br><label class="checkbox">
+                                <span class="checkbox__label">{{settings_TurboMode_text}}</span>
+                                <input type="checkbox" class="checkbox_turbo_mode">
+                                <span class="checkbox__design"></span>
+                            </label>
+                            </div>
+                            <span class="settings_gradient"></span>
+
+
+                        </div>
+                    </div>
+
+                    <div class="tabs-data__tab-item tab_BetSettingsContent" data-name="bets">
+                        <div class="tabs-data__tab-title">{{tab_BetSettingsTitle_text}}</div>
+                        <div class="tabs-data__tab-content bet_tab_content">
+                            <ul class="bets-settings">
+                                {{#betSettings_Bets}}
+                                <li class="bets-settings__item {{bet_class}}">{{bet_value}}</li>
+                                {{/betSettings_Bets}}
+                            </ul>
+
+                            <span class="settings_gradient"></span>
+
+                            <div class="settings_betsValuesArea">
+                                <div class="settings_valueWithCaption">
+                                    <div class="range__label_top_caption">
+                                        {{betSettings_BetInCashTitle_text}}
+                                    </div>
+                                    <div class="settings_valueWithCaption settings_valueWithCaption_value">
+                                        <div class="bet_settings_betInCash_value">100000.00</div>
+                                        <div class="settings_valueWithCaption_currency bet_settings_betInCash_currency">USD</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="settings_valueWithCaption">
+                                    <div class="range__label_top_caption">
+                                        {{betSettings_BetInCoinsTitle_text}}
+                                    </div>
+                                    <div class="settings_valueWithCaption settings_valueWithCaption_value bet_settings_betInCoins_value">
+                                        100000
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="settings_gradient"></span>
+
+                            <div class="range_container">
+                                <span class="range__label_top_caption bet_settings_coinValue_title">{{betSettings_CoinsSlider_title_text}}</span>
+                                <div class="range_container_body">
+                                    <span class="range__label_top bet_settings_coinValue_text">0</span>
+                                    <label class="range">
+                                        <span class="range__label settings_slider_coin_value_min"> {{betSettings_CoinsSlider_minValue_text}} </span>
+                                        <input type="range" class="bet_settings_coinValue_slider" min="0" max="{{betSettings_CoinsSlider_rangeMaxValue_text}}" value="0">
+                                        <span class="range__label settings_slider_coin_value_max"> {{betSettings_CoinsSlider_maxValue_text}} </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <span class="settings_gradient"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="tabs-data__menu">
+                    <!--  <li class="tabs-data__menu-item tab-icon--history tab_HistoryBtn" data-name="history"></li> -->
+                    <li class="tabs-data__menu-item tab-icon--bets tab_BetSettingsBtn" data-name="bets"></li>
+                    <li class="tabs-data__menu-item tab-icon--keypad_guide tab_KeypadGuideBtn" data-name="keypad_guide"></li>
+                    <li class="tabs-data__menu-item tab-icon--rules tab_RulesBtn" data-name="rules"></li>
+                    <li class="tabs-data__menu-item tab-icon--paytable tab_PaytableBtn" data-name="paytable"></li>
+                    <li class="tabs-data__menu-item tab-icon--settings tab_SettingsBtn" data-name="settings"></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>

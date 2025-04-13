@@ -1,0 +1,1258 @@
+(window.webpackJsonp = window.webpackJsonp || []).push([
+    [4], {
+        "+IXQ": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var2.02d53ffbd837dbf9086a7d05822a695c.mp3"
+        },
+        "+Shu": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_mega_v2.cc2061fb24a0be6e750b69fe84204eaf.ogg"
+        },
+        "+cgR": function(e, t, n) {
+            e.exports = n.p + "resources/splash_screen.ad288e17ff3ad2c0eb1891ecb468757e.png"
+        },
+        "+n/3": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_transition_explosion.09a39273aaa8e41da6e797135f65db43.mp3"
+        },
+        "/sHx": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_6_high.3b1a9bff4c3a59a77c07c4c1d589bac7.m4a"
+        },
+        "/yst": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stopping.3471a5f59f539e56c448521e3cecdc20.m4a"
+        },
+        "0Spd": function(e, t, n) {
+            e.exports = n.p + "resources/fx.a2735d73f0b3585dd1d94c646cdeac9f.png"
+        },
+        "0YW9": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_mega_v2.8522095c9383a1991b3fb4b0f3873525.m4a"
+        },
+        "1Bls": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_high.413e467d8c5fd4d773db334f2a677980.ogg"
+        },
+        "1DLj": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_loop.315088856a447fac5919bfde50a63944.m4a"
+        },
+        "1GuH": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_5_high.eedbe91bc5bcaa52790ed75f2fea3cf2.m4a"
+        },
+        "1Vyy": function(e, t, n) {
+            e.exports = n.p + "resources/mus_pre_free_spins_gamble.99d301cf7a9c6a94d5e1a01d36ff9f17.ogg"
+        },
+        "1fv0": function(e, t, n) {
+            e.exports = n.p + "resources/ui_buy_bonus.d7055247a6f972ed17b7164064c22ae1.m4a"
+        },
+        "1xr1": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_low.9c4ddd37c9cf21574395029530203adc.m4a"
+        },
+        "2B6M": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_medium.fcf3c2f1a8365cad91a2f2a99a4ea29f.m4a"
+        },
+        "2hBP": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_medium.6e1ff421a2eee2b23650b3c5259fa92c.mp3"
+        },
+        "3A9a": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_7_high.b95be7cfd804b013011904279f17185a.m4a"
+        },
+        "3q0W": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_8_high.92f111778c3a1af885ea8056318d8de9.ogg"
+        },
+        "4/ZG": function(e, t, n) {
+            e.exports = n.p + "resources/mus_basegame.b68bdc032f1a6396aa51d005942c0049.ogg"
+        },
+        "41Yt": function(e, t, n) {
+            e.exports = n.p + "resources/symbols.4d0a0e505fe24a67411052c68343ac0f.png"
+        },
+        "4PAz": function(e, t, n) {
+            e.exports = n.p + "resources/win_stills.eb180ca79d67a8b2e96e23103c3be387.json"
+        },
+        "4f8s": function(e, t, n) {
+            e.exports = n.p + "resources/mus_basegame.abc160ded5c95ca33d6431a76ae2138a.mp3"
+        },
+        "5EsN": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_superhigh.d025838bd90ec65f29f00cceaf436559.m4a"
+        },
+        "5K8S": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_slow.3ac2a203f65435115f368e66df3d91a7.mp3"
+        },
+        "5epA": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_transition_explosion.15c02b1f720f34ed439ca759e07668a9.ogg"
+        },
+        "5hIg": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_lost.26e5cd3d0e01929e327bcab7675f9796.m4a"
+        },
+        "66Yp": function(e, t, n) {
+            e.exports = n.p + "resources/gamble_fx.4de6d709d96f314a9224482d1347199f.png"
+        },
+        "6VQ2": function(e, t, n) {
+            e.exports = n.p + "resources/ui_buy_bonus.85d34328616e004198c18800e9a5c9fd.mp3"
+        },
+        "6fS1": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_increase.b1bfe60f013ded5a134c3396d1e065da.m4a"
+        },
+        "6g5m": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_mid.fb5b5c82404b4da2584eec087c7f79a8.ogg"
+        },
+        "76kL": function(e, t, n) {
+            e.exports = n.p + "resources/ui_generic_button.3b9f97265b5dc8b554f6908d1585c6ff.mp3"
+        },
+        "7FRf": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var4.b04577f8631116ee460d3a6599de118f.mp3"
+        },
+        "7mLo": function(e, t, n) {
+            e.exports = n.p + "resources/mus_freespins.3c49ee8f0e38f62a5a0bd8a7c8410c90.mp3"
+        },
+        "8LSs": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_connect.7e10e0f3b6a791f59c51f4d48c1a8d18.ogg"
+        },
+        "8Mdc": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_big_v2.26f63c02ad287ff6fc202981131d37d6.ogg"
+        },
+        "8SxR": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award3.7fb8613c4326d7c81155098274037029.ogg"
+        },
+        "8YBN": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_ui_basic_click.798eba22363174413b8a075a7e2f20d6.ogg"
+        },
+        "8c4Z": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_medium.07ab112eca722f0e051bea4ce7a78ca1.ogg"
+        },
+        "9Dap": function(e, t, n) {
+            e.exports = n.p + "resources/ui_generic_button.33adfeb6f7afd90be0f452cdea4eabbe.m4a"
+        },
+        AGkh: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_fast.989e1de9abdf9990dfdfce44a5b36f74.m4a"
+        },
+        AJHG: function(e, t, n) {
+            e.exports = n.p + "resources/win.8389dede5c067d9347aa1db5e08b1ba4.png"
+        },
+        AQrT: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_applied.570d29bfcbc2b3a5f1b51016bf774974.m4a"
+        },
+        Anhp: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award2.fd6c8ac015d84612e9e4a1b260f3a259.m4a"
+        },
+        BJsE: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_super_v2.05980c8f1cbc42d89942685195d7f9ed.mp3"
+        },
+        BZO7: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_applied.a680f8432242b6d0411d75baf10f3ed6.ogg"
+        },
+        Bkjy: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_reels_fill.4500685da506b9179c09b395051c5865.mp3"
+        },
+        D1KL: function(e, t, n) {
+            e.exports = n.p + "resources/ui_gamble.4804ae49fe3b169f71810854281dda71.m4a"
+        },
+        DaRC: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award3.3dc9fc9425b236206e5574826bba648f.mp3"
+        },
+        EUFo: function(e, t, n) {
+            e.exports = n.p + "resources/ui_gamble.a29355f4b369e1a7b349df62cb1fc959.ogg"
+        },
+        EWD7: function(e, t, n) {
+            e.exports = n.p + "resources/hud.99370dbc37399273fb5bf973dd67019c.png"
+        },
+        EvCu: function(e, t, n) {
+            e.exports = n.p + "resources/backgrounds.01c0dab777bd441617e76f36adb10911.jpg"
+        },
+        F8cg: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_low.efc3ceaed55897ee68935fb7a02c82eb.ogg"
+        },
+        FTVZ: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_7_high.c554725020fa5f311546aa460cd9e120.mp3"
+        },
+        FTpB: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_escalation.50a36d681abe39bbe863c5a1de108b86.mp3"
+        },
+        GnLX: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_loop.7b5bea74f9992ac3d76c19278967749f.ogg"
+        },
+        HMxB: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_high.03f72bd89217458c75b3c2ab028a72fb.m4a"
+        },
+        HmT5: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_big_v2.ea74d0fd617f8b7e256a0bf37e06ad80.mp3"
+        },
+        IXJY: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stop.897d0bfa932d664ac1001b8b2be5395d.m4a"
+        },
+        J5u2: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stop.df5f94fd00d4a0dfa2a7be4a6059f697.mp3"
+        },
+        JDXy: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_mid.83313d027c76cea3af81bf52ad334040.m4a"
+        },
+        JLKC: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_super_high_upgrade.0e21b98f02e28d58bd1ff7d0eae7c752.m4a"
+        },
+        JRzx: function(e, t, n) {
+            e.exports = n.p + "resources/splash_screen_background.4112eacd199160735d25a3d0d9516cc4.json"
+        },
+        JW3p: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_big_v2.0c80fe7a8918438f5d9c9460c83c5989.m4a"
+        },
+        JZdZ: function(e, t, n) {
+            e.exports = n.p + "resources/gamble_panel.c5c07838caf8fe55db346125a9135ff5.png"
+        },
+        JwxG: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award2.616ac5884ece7e3875ed92526e8236ec.mp3"
+        },
+        "K7+g": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_end.74cdee6f197478486140776f779c3f86.mp3"
+        },
+        KDPb: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_end.c01d38bec9ad6d38b4d49e535e031f95.ogg"
+        },
+        LUjG: function(e, t, n) {
+            e.exports = n.p + "resources/win_stills.7b047a7a2d341d2126be43d82f7ceca7.png"
+        },
+        "Lr7/": function(e, t, n) {
+            e.exports = n.p + "resources/win_stills@0.5x.56954f0ef7a424255135e77ac7fac915.png"
+        },
+        MNnH: function(e, t, n) {
+            e.exports = n.p + "resources/mus_freespins.21b94ef6df8b453bf4ffa14a4e27c216.m4a"
+        },
+        MsCB: function(e, t, n) {
+            e.exports = n.p + "resources/ui_buy_bonus.a5ba60ccbc847254ed8f45e649645821.ogg"
+        },
+        NQLO: function(e, t, n) {
+            e.exports = n.p + "resources/backgrounds.f0f5d6dea0d4cea102aeccff74934f1b.json"
+        },
+        O5tW: function(e, t, n) {
+            e.exports = n.p + "resources/gamble_panel@0.5x.6be76d1856f4803f7faf8d90e6be3a50.png"
+        },
+        OByp: function(e, t, n) {
+            e.exports = n.p + "resources/mus_basegame.05fd9cdb8dc14f613015d29452625958.m4a"
+        },
+        Ogum: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_ui_basic_click.ca225f5419631c4a2e43872c49a49335.mp3"
+        },
+        PYkX: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_8_high.f7422cf8be1970b4b683c31e77d863e4.m4a"
+        },
+        PhzI: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_reels_fill.949718c14587619104027483781e7571.m4a"
+        },
+        QOXN: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_low.d996c3aa23e6ac25d92fd46232d5bf26.mp3"
+        },
+        QmN8: function(e, t, n) {
+            e.exports = n.p + "resources/splash_screen_background.3a5e4ec0e7c400a7d3e296690016c261.jpg"
+        },
+        R84h: function(e, t, n) {
+            e.exports = n.p + "resources/ui_gamble.3f49347f0013f603652ae7c7ea594779.mp3"
+        },
+        SHCI: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_increase.97246139abcd36cd7434ce76eeb6c99d.mp3"
+        },
+        T33p: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_super_v2.82917cff40832f0a30740320adcce64f.ogg"
+        },
+        T4kT: function(e, t, n) {
+            e.exports = n.p + "resources/mus_main_excitement.934447de983234c45af89894b717e966.mp3"
+        },
+        UeUv: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_7_high.af3c279dac47ec53b8083d2cc700f141.ogg"
+        },
+        UqyK: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var3.20f8920367e7a974ba3cccfbab7f2203.ogg"
+        },
+        UvOa: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_superhigh.2b3abab4d5cf490894a350a4262bf644.ogg"
+        },
+        VPiP: function(e, t, n) {
+            e.exports = n.p + "resources/win.3344b4d04e2d7e409996ebbecd1ad067.json"
+        },
+        W67K: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_slow.0ace5a5085a1a74e07da2bd13a8f83ce.ogg"
+        },
+        WLiD: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_connect.795781709eeb31c3ca4b84acd461cecf.mp3"
+        },
+        XOEp: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var2.f6620bcbc97b52e735f4f4639369c72c.ogg"
+        },
+        YDhX: function(e, t, n) {
+            e.exports = n.p + "resources/fx@0.5x.4606d1b29932bc9be067ef623fe5d5ab.png"
+        },
+        ZPOd: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_lost.20552529f981f9d979918def437bb908.mp3"
+        },
+        aPtV: function(e, t, n) {
+            e.exports = n.p + "resources/hud.65931ba63d5b6552d1b5666c89419e8f.json"
+        },
+        anrd: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_escalation.4019c7de647e904e84966189d2aa700f.ogg"
+        },
+        ayX7: function(e, t, n) {
+            e.exports = n.p + "resources/mus_pre_free_spins_gamble.2a20ea60f4c142b44917595bc53b7394.m4a"
+        },
+        bN7U: function(e, t, n) {
+            e.exports = n.p + "resources/fx.305c634c7c01b2c360405fc0e5a6b26b.json"
+        },
+        bxhM: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_super_high_upgrade.38d6842b57a123def1c6b937bdd5e46b.ogg"
+        },
+        cLbB: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_increase.d505bbd1777df8821b6755e3fbb244b5.ogg"
+        },
+        cNk0: function(e, t, n) {
+            "use strict";
+            n.r(t), n.d(t, "gameApp", (function() {
+                return J
+            }));
+            var o, s = n("sKXZ"),
+                c = n("QVlM"),
+                r = n("D57K"),
+                i = n("ERkP"),
+                a = n("BGUQ"),
+                u = {
+                    backgrounds: {
+                        hd: {
+                            json: n("NQLO"),
+                            jpg: n("EvCu")
+                        }
+                    },
+                    fx: {
+                        hd: {
+                            json: n("bN7U"),
+                            png: n("0Spd")
+                        },
+                        sd: {
+                            json: n("bN7U"),
+                            png: n("YDhX")
+                        }
+                    },
+                    gamble_fx: {
+                        hd: {
+                            json: n("n76g"),
+                            png: n("66Yp")
+                        },
+                        sd: {
+                            json: n("n76g"),
+                            png: n("m8Qy")
+                        }
+                    },
+                    gamble_panel: {
+                        hd: {
+                            json: n("gw6q"),
+                            png: n("JZdZ")
+                        },
+                        sd: {
+                            json: n("gw6q"),
+                            png: n("O5tW")
+                        }
+                    },
+                    hud: {
+                        hd: {
+                            json: n("aPtV"),
+                            png: n("EWD7")
+                        }
+                    },
+                    multiplier: {
+                        hd: {
+                            json: n("r2Cm"),
+                            png: n("pVdR")
+                        },
+                        sd: {
+                            json: n("r2Cm"),
+                            png: n("mivn")
+                        }
+                    },
+                    splash_screen_background: {
+                        hd: {
+                            json: n("JRzx"),
+                            jpg: n("QmN8")
+                        }
+                    },
+                    splash_screen: {
+                        hd: {
+                            json: n("fSgD"),
+                            png: n("+cgR")
+                        }
+                    },
+                    symbols: {
+                        hd: {
+                            json: n("h0gk"),
+                            png: n("41Yt")
+                        },
+                        sd: {
+                            json: n("h0gk"),
+                            png: n("etra")
+                        }
+                    },
+                    win_stills: {
+                        hd: {
+                            json: n("4PAz"),
+                            png: n("LUjG")
+                        },
+                        sd: {
+                            json: n("4PAz"),
+                            png: n("Lr7/")
+                        }
+                    },
+                    win: {
+                        hd: {
+                            json: n("VPiP"),
+                            png: n("AJHG")
+                        },
+                        sd: {
+                            json: n("VPiP"),
+                            png: n("uAGw")
+                        }
+                    }
+                },
+                f = {
+                    mfx_reels_5_high: [n("vtqy"), n("1GuH"), n("leS9")],
+                    mfx_reels_6_high: [n("cPjY"), n("/sHx"), n("i8G1")],
+                    mfx_reels_7_high: [n("UeUv"), n("3A9a"), n("FTVZ")],
+                    mfx_reels_8_high: [n("3q0W"), n("PYkX"), n("tT3O")],
+                    mfx_wheel_fs_award2: [n("hIj6"), n("Anhp"), n("JwxG")],
+                    mfx_wheel_fs_award3: [n("8SxR"), n("wv76"), n("DaRC")],
+                    mfx_wheel_fs_lost: [n("uT+8"), n("5hIg"), n("ZPOd")],
+                    mfx_win_big_v2: [n("8Mdc"), n("JW3p"), n("HmT5")],
+                    mfx_win_end: [n("xHFG"), n("fcNc"), n("K7+g")],
+                    mfx_win_epic_v2: [n("zRgx"), n("dqJa"), n("g9J8")],
+                    mfx_win_mega_v2: [n("+Shu"), n("0YW9"), n("uBbq")],
+                    mfx_win_super_v2: [n("T33p"), n("oqDw"), n("BJsE")],
+                    mus_basegame: [n("4/ZG"), n("OByp"), n("4f8s")],
+                    mus_freespins: [n("wRFZ"), n("MNnH"), n("7mLo")],
+                    mus_main_excitement: [n("lkDg"), n("mK3e"), n("T4kT")],
+                    mus_pre_free_spins_gamble: [n("1Vyy"), n("ayX7"), n("fyh9")],
+                    sfx_multiplier_applied: [n("BZO7"), n("AQrT"), n("xCI9")],
+                    sfx_multiplier_increase: [n("cLbB"), n("6fS1"), n("SHCI")],
+                    sfx_reels_fill: [n("uL46"), n("PhzI"), n("Bkjy")],
+                    sfx_symbol_appear_option1_var1: [n("tiYc"), n("yUTQ"), n("pluU")],
+                    sfx_symbol_appear_option1_var2: [n("XOEp"), n("sz86"), n("+IXQ")],
+                    sfx_symbol_appear_option1_var3: [n("UqyK"), n("nIn5"), n("jH4U")],
+                    sfx_symbol_appear_option1_var4: [n("oUkK"), n("hlc4"), n("7FRf")],
+                    sfx_symbols_connect: [n("8LSs"), n("gZ2j"), n("WLiD")],
+                    sfx_symbols_super_high_upgrade: [n("bxhM"), n("JLKC"), n("eAeZ")],
+                    sfx_symbols_win_high: [n("1Bls"), n("HMxB"), n("gqwA")],
+                    sfx_symbols_win_low: [n("F8cg"), n("1xr1"), n("QOXN")],
+                    sfx_symbols_win_mid: [n("6g5m"), n("JDXy"), n("dO3k")],
+                    sfx_symbols_win_superhigh: [n("UvOa"), n("5EsN"), n("rUhE")],
+                    sfx_transition_explosion: [n("5epA"), n("uPE/"), n("+n/3")],
+                    sfx_ui_basic_click: [n("8YBN"), n("kT4H"), n("Ogum")],
+                    sfx_wheel_fs_spin_fast: [n("vtaS"), n("AGkh"), n("w1D7")],
+                    sfx_wheel_fs_spin_medium: [n("8c4Z"), n("2B6M"), n("2hBP")],
+                    sfx_wheel_fs_spin_slow: [n("W67K"), n("l7ow"), n("5K8S")],
+                    sfx_wheel_fs_spin_stop: [n("g7aU"), n("IXJY"), n("J5u2")],
+                    sfx_wheel_fs_spin_stopping: [n("v2N+"), n("/yst"), n("pTHo")],
+                    sfx_win_countup_end: [n("KDPb"), n("zsOO"), n("jpdC")],
+                    sfx_win_countup_loop: [n("GnLX"), n("1DLj"), n("mrS0")],
+                    sfx_win_escalation: [n("anrd"), n("vn5t"), n("FTpB")],
+                    ui_buy_bonus: [n("MsCB"), n("1fv0"), n("6VQ2")],
+                    ui_gamble: [n("EUFo"), n("D1KL"), n("R84h")],
+                    ui_generic_button: [n("lQgo"), n("9Dap"), n("76kL")]
+                },
+                p = n("vhG8"),
+                d = n("fQHh"),
+                b = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, a, u, f;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, Promise, (function() {
+                            var e, t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return e = 0 === this._model.getSpinNumber(), t = this._model.getCurrentSpin(), this._spinMediator.setSpin(t, e), this._freeSpinsMediator.setSpin(t), this._freeSpinsMediator.shouldShowFreeSpinsIntro ? [4, this._freeSpinsMediator.showFreeSpinsIntro(2 * t.board.reduce((function(e, t) {
+                                            return e *= t.length
+                                        }), 1))] : [3, 4];
+                                    case 1:
+                                        return n.sent(), [4, Object(p.A)(4)];
+                                    case 2:
+                                        return n.sent(), [4, this._freeSpinsMediator.hideFreeSpinsIntro()];
+                                    case 3:
+                                        n.sent(), this._tickerMediator.show(d.j.FREE_SPINS_STARTED, !0), n.label = 4;
+                                    case 4:
+                                        return [4, this._multiplierPanelMediator.updateValue(t.multiplier)];
+                                    case 5:
+                                        return n.sent(), this._freeSpinsMediator.isFirstFreeSpin ? [4, Object(p.A)(2)] : [3, 7];
+                                    case 6:
+                                        n.sent(), n.label = 7;
+                                    case 7:
+                                        return this._spinPanelMediator.updateFreeSpinsCounter(this._freeSpinsMediator.previousFreeSpinsleft - (this._freeSpinsMediator.isNewFreeSpin ? 1 : 0)), [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(n = void 0 !== c.L && c.L) ? n : Object)], t.prototype, "_model", void 0), Object(r.c)([Object(s.i)(d.h), Object(r.f)("design:type", "function" == typeof(o = void 0 !== d.h && d.h) ? o : Object)], t.prototype, "_spinMediator", void 0), Object(r.c)([Object(s.i)(d.c), Object(r.f)("design:type", "function" == typeof(i = void 0 !== d.c && d.c) ? i : Object)], t.prototype, "_freeSpinsMediator", void 0), Object(r.c)([Object(s.i)(c.R), Object(r.f)("design:type", "function" == typeof(a = void 0 !== c.R && c.R) ? a : Object)], t.prototype, "_spinPanelMediator", void 0), Object(r.c)([Object(s.i)(d.g), Object(r.f)("design:type", "function" == typeof(u = void 0 !== d.g && d.g) ? u : Object)], t.prototype, "_multiplierPanelMediator", void 0), Object(r.c)([Object(s.i)(d.i), Object(r.f)("design:type", "function" == typeof(f = void 0 !== d.i && d.i) ? f : Object)], t.prototype, "_tickerMediator", void 0), t
+                }(s.e),
+                _ = n("Pe9T"),
+                l = n("Cajs"),
+                m = n("MqXa"),
+                h = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    return Object(r.d)(t, e), t.prototype.run = function(e) {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return t = e.action === l.a.FREE_SPINS_3 ? _.a.BONUS_BUY_MAX_BET_MULTIPLIER : _.a.BONUS_BUY_BET_MULTIPLIER, this.context.get(c.d).setByValue(e.bet.divide(t), e.action === l.a.FREE_SPINS_3 || e.action === l.a.BONUS), [4, this.runCommandSync(c.o)];
+                                    case 1:
+                                        return n.sent(), this.context.get(c.g).updateWin(m.e.fromZero()), this.context.get(c.K).setNextId(), [2]
+                                }
+                            }))
+                        }))
+                    }, t
+                }(s.e),
+                g = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        e.prototype.run.call(this), this.context.get(c.L).isFirstSpin() || this.context.get(c.R).blockStop()
+                    }, t
+                }(c.V),
+                x = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        this._waysMediator.reset()
+                    }, Object(r.c)([Object(s.i)(d.k), Object(r.f)("design:type", "function" == typeof(n = void 0 !== d.k && d.k) ? n : Object)], t.prototype, "_waysMediator", void 0), t
+                }(c.D),
+                y = n("Cc2N"),
+                j = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, u, f;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var e, t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return e = this._gamblePanelMediator.getTakeDecision(), this._loadingIndicatorMediator.start(), [4, this._connect.sendAction(e)];
+                                    case 1:
+                                        return t = n.sent(), this._loadingIndicatorMediator.stop(), this._gamblePanelMediator.hide(), this._roundModel.setRoundData(t), [4, Object(p.A)(1)];
+                                    case 2:
+                                        return n.sent(), this._sounds.switchMusic(a.MusicLevel.FREE_SPINS), [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(y.b), Object(r.f)("design:type", "function" == typeof(n = void 0 !== l.b && l.b) ? n : Object)], t.prototype, "_connect", void 0), Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(o = void 0 !== d.e && d.e) ? o : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(i = void 0 !== _.a && _.a) ? i : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(a.GameSoundsManager), Object(r.f)("design:type", "function" == typeof(u = void 0 !== a.GameSoundsManager && a.GameSoundsManager) ? u : Object)], t.prototype, "_sounds", void 0), Object(r.c)([Object(s.i)(c.x), Object(r.f)("design:type", "function" == typeof(f = void 0 !== c.x && c.x) ? f : Object)], t.prototype, "_loadingIndicatorMediator", void 0), t
+                }(s.e),
+                O = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, u, f, b;
+                    return Object(r.d)(t, e), t.prototype.closeGamble = function() {
+                        this._gamblePanelMediator.hide()
+                    }, t.prototype.abortGamble = function() {
+                        this._gamblePanelMediator.abort()
+                    }, t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var e;
+                            return Object(r.e)(this, (function(t) {
+                                switch (t.label) {
+                                    case 0:
+                                        return e = this._gamblePanelMediator.getGambleDecision(), [4, this.handleDecision(e)];
+                                    case 1:
+                                        return t.sent(), [2]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.handleDecision = function(e) {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return [l.a.GAMBLE_1, l.a.GAMBLE_2].includes(e) ? [4, this.runCommandSync(c.q)] : [3, 3];
+                                    case 1:
+                                        return n.sent(), [4, this._gamblePanelMediator.wheelSpinning.update(!0)];
+                                    case 2:
+                                        n.sent(), n.label = 3;
+                                    case 3:
+                                        return this._loadingIndicatorMediator.start(), [4, this._connect.sendAction(e)];
+                                    case 4:
+                                        return t = n.sent(), this._loadingIndicatorMediator.stop(), [4, this.processNextRound(t)];
+                                    case 5:
+                                        return n.sent(), [2]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.waitForTake = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(e) {
+                                switch (e.label) {
+                                    case 0:
+                                        return this._gamblePanelMediator.setAutoPick(void 0), [4, this._gamblePanelMediator.gambleLevel.update(l.a.GAMBLE_2)];
+                                    case 1:
+                                        return e.sent(), [4, this._gamblePanelMediator.wheelActionsVisible.update({
+                                            gamble: !1,
+                                            take: !0
+                                        })];
+                                    case 2:
+                                        return e.sent(), [4, this._gamblePanelMediator.waitForDecision()];
+                                    case 3:
+                                        return e.sent(), this.closeGamble(), [2]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.processNextRound = function(e) {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var t, n, o;
+                            return Object(r.e)(this, (function(s) {
+                                switch (s.label) {
+                                    case 0:
+                                        return t = e.roundMode, n = e.nextActions, this._roundModel.setRoundData(e), this._gamblePanelMediator.gambleResult = t, [4, this._gamblePanelMediator.wheelSpinning.update(!1)];
+                                    case 1:
+                                        return s.sent(), [4, Object(p.A)(.5)];
+                                    case 2:
+                                        switch (s.sent(), t) {
+                                            case l.c.LOST:
+                                                return [3, 3];
+                                            case l.c.NEXT_GAMBLE:
+                                                return [3, 6];
+                                            case l.c.FREE_SPINS_3:
+                                            case l.c.FREE_SPINS_3_EXTRA:
+                                                return [3, 11];
+                                            case l.c.FREE_SPINS_1:
+                                            case l.c.FREE_SPINS_2:
+                                            case l.c.FREE_SPINS_2_EXTRA:
+                                                return [3, 13]
+                                        }
+                                        return [3, 14];
+                                    case 3:
+                                        return this.abortGamble(), this._autoSpinModel.hasAutospins() ? [4, Object(p.A)(2)] : [3, 5];
+                                    case 4:
+                                        s.sent(), s.label = 5;
+                                    case 5:
+                                        return [3, 15];
+                                    case 6:
+                                        return [4, Promise.all([this._gamblePanelMediator.gambleLevel.update(l.a.GAMBLE_2), this._gamblePanelMediator.show(d.d.BONUS_WHEEL, n, this._roundModel.autoDecision()), this._gamblePanelMediator.wheelActionsVisible.update({
+                                            gamble: !0,
+                                            take: !0
+                                        })])];
+                                    case 7:
+                                        return s.sent(), [4, this._gamblePanelMediator.waitForDecision()];
+                                    case 8:
+                                        return o = s.sent(), [4, this._gamblePanelMediator.wheelActionsVisible.update({
+                                            gamble: !1,
+                                            take: !1
+                                        })];
+                                    case 9:
+                                        return s.sent(), [4, this.handleDecision(o)];
+                                    case 10:
+                                        return s.sent(), [3, 15];
+                                    case 11:
+                                        return [4, this.waitForTake()];
+                                    case 12:
+                                        return s.sent(), this._sounds.switchMusic(a.MusicLevel.FREE_SPINS), [3, 15];
+                                    case 13:
+                                        return this.closeGamble(), this._sounds.switchMusic(a.MusicLevel.FREE_SPINS), [3, 15];
+                                    case 14:
+                                        throw new Error("Unknown round mode: " + t);
+                                    case 15:
+                                        return [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(n = void 0 !== _.a && _.a) ? n : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(y.b), Object(r.f)("design:type", "function" == typeof(o = void 0 !== l.b && l.b) ? o : Object)], t.prototype, "_connect", void 0), Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(i = void 0 !== d.e && d.e) ? i : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(c.b), Object(r.f)("design:type", "function" == typeof(u = void 0 !== c.b && c.b) ? u : Object)], t.prototype, "_autoSpinModel", void 0), Object(r.c)([Object(s.i)(c.x), Object(r.f)("design:type", "function" == typeof(f = void 0 !== c.x && c.x) ? f : Object)], t.prototype, "_loadingIndicatorMediator", void 0), Object(r.c)([Object(s.i)(a.GameSoundsManager), Object(r.f)("design:type", "function" == typeof(b = void 0 !== a.GameSoundsManager && a.GameSoundsManager) ? b : Object)], t.prototype, "_sounds", void 0), t
+                }(s.e),
+                v = n("8AiN"),
+                M = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, a, u;
+                    return Object(r.d)(t, e), t.prototype.checkRoundError = function(e) {
+                        return "error" in e
+                    }, t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var e, t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return [4, this.runCommandSync(c.o)];
+                                    case 1:
+                                        return n.sent(), e = this._betPanelMediator.getBuyBonusBet(), this._roundModel.init(e, "bonus"), [4, this._connect.buyBonus(e)];
+                                    case 2:
+                                        return t = n.sent(), this.checkRoundError(t) ? (this.runCommand(v.g, t), this._roundModel.clear(), this._gamblePanelMediator.abort(), [2, Promise.reject()]) : (this._roundModel.setRoundData(t), this._roundModel.setBonusBuy(!0), this._cashModel.updateBalance(t.balance), [2, Promise.resolve()])
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(y.b), Object(r.f)("design:type", "function" == typeof(n = void 0 !== l.b && l.b) ? n : Object)], t.prototype, "_connect", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(o = void 0 !== _.a && _.a) ? o : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(c.f), Object(r.f)("design:type", "function" == typeof(i = void 0 !== c.f && c.f) ? i : Object)], t.prototype, "_cashModel", void 0), Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(a = void 0 !== d.e && d.e) ? a : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(c.d), Object(r.f)("design:type", "function" == typeof(u = void 0 !== d.m && d.m) ? u : Object)], t.prototype, "_betPanelMediator", void 0), t
+                }(s.e),
+                w = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, a, u;
+                    return Object(r.d)(t, e), t.prototype.checkRoundError = function(e) {
+                        return "error" in e
+                    }, t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var e, t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return [4, this.runCommandSync(c.o)];
+                                    case 1:
+                                        return n.sent(), e = this._betPanelMediator.getBuyMaxBonusBet(), [4, this._connect.buyBonusMax(e)];
+                                    case 2:
+                                        return (t = n.sent()) ? (this._roundModel.init(e, "bonus"), this.checkRoundError(t) ? (this.runCommand(v.g, t), this._roundModel.clear(), this._gamblePanelMediator.abort(), [2, Promise.reject()]) : (this._roundModel.setRoundData(t), this._roundModel.setBonusBuyMax(!0), this._cashModel.updateBalance(t.balance), [2, Promise.resolve()])) : [2, Promise.resolve()]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(y.b), Object(r.f)("design:type", "function" == typeof(n = void 0 !== l.b && l.b) ? n : Object)], t.prototype, "_connect", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(o = void 0 !== _.a && _.a) ? o : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(c.f), Object(r.f)("design:type", "function" == typeof(i = void 0 !== c.f && c.f) ? i : Object)], t.prototype, "_cashModel", void 0), Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(a = void 0 !== d.e && d.e) ? a : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(c.d), Object(r.f)("design:type", "function" == typeof(u = void 0 !== d.m && d.m) ? u : Object)], t.prototype, "_betPanelMediator", void 0), t
+                }(s.e),
+                S = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(t) {
+                                switch (t.label) {
+                                    case 0:
+                                        return this._roundModel.hasMoreSpins() ? [4, this.runCommandSync(c.q)] : [3, 2];
+                                    case 1:
+                                        return t.sent(), this._machineMediator.startSpin(), [2, e.prototype.run.call(this)];
+                                    case 2:
+                                        return [4, this.runCommandSync(c.i)];
+                                    case 3:
+                                        t.sent(), t.label = 4;
+                                    case 4:
+                                        return [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(c.z), Object(r.f)("design:type", "function" == typeof(n = void 0 !== c.z && c.z) ? n : Object)], t.prototype, "_machineMediator", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(o = void 0 !== c.L && c.L) ? o : Object)], t.prototype, "_roundModel", void 0), t
+                }(c.J),
+                P = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(e) {
+                                return this._cashPanelMediator.clear(), [2]
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(c.g), Object(r.f)("design:type", "function" == typeof(n = void 0 !== c.g && c.g) ? n : Object)], t.prototype, "_cashPanelMediator", void 0), t
+                }(s.e),
+                B = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i;
+                    return Object(r.d)(t, e), t.prototype.run = function(e) {
+                        var t = e.isBonusBuy,
+                            n = e.isBonusBuyMax,
+                            o = e.isBonusBuyMaxReplay;
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            var e, s, c, i, u, f;
+                            return Object(r.e)(this, (function(r) {
+                                switch (r.label) {
+                                    case 0:
+                                        return e = [l.a.GAMBLE_1, l.a.FREE_SPINS_1, l.a.BONUS_MAX], s = this._roundModel.nextActions().length ? this._roundModel.nextActions() : e, c = s.includes(l.a.GAMBLE_2) ? l.a.GAMBLE_2 : l.a.GAMBLE_1, this._gamblePanelMediator.gambleLevel.update(c), u = (i = t || n) ? d.d.BUY_BONUS_DECISION : d.d.DECISION, i ? [3, 2] : [4, Object(p.A)(1.5)];
+                                    case 1:
+                                        r.sent(), r.label = 2;
+                                    case 2:
+                                        return n ? this._gamblePanelMediator.show(u, s, l.a.BONUS_MAX) : this._gamblePanelMediator.show(u, s, this._roundModel.autoDecision()), [4, this._gamblePanelMediator.waitForDecision()];
+                                    case 3:
+                                        return f = r.sent(), o ? (this._gamblePanelMediator.hide(), [4, Object(p.A)(1)]) : [3, 5];
+                                    case 4:
+                                        return r.sent(), this._sounds.switchMusic(a.MusicLevel.FREE_SPINS), [2, Promise.resolve()];
+                                    case 5:
+                                        return Object(l.d)(f) ? [4, this.runCommandSync(i ? v.c : v.h)] : [3, 7];
+                                    case 6:
+                                        return r.sent(), [3, 11];
+                                    case 7:
+                                        return Object(l.e)(f) ? [4, this.runCommandSync(v.b)] : [3, 9];
+                                    case 8:
+                                        return r.sent(), [3, 11];
+                                    case 9:
+                                        return [4, this.runCommandSync(i ? v.d : v.m)];
+                                    case 10:
+                                        r.sent(), r.label = 11;
+                                    case 11:
+                                        return [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(n = void 0 !== d.e && d.e) ? n : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(o = void 0 !== _.a && _.a) ? o : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(a.GameSoundsManager), Object(r.f)("design:type", "function" == typeof(i = void 0 !== a.GameSoundsManager && a.GameSoundsManager) ? i : Object)], t.prototype, "_sounds", void 0), t
+                }(s.e),
+                E = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(e) {
+                                switch (e.label) {
+                                    case 0:
+                                        return [4, this.runCommandSync(v.e)];
+                                    case 1:
+                                        return e.sent(), [2]
+                                }
+                            }))
+                        }))
+                    }, t
+                }(s.e),
+                L = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, i, a;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(t) {
+                                switch (t.label) {
+                                    case 0:
+                                        return this._roundModel.hasMoreSpins() ? [4, this.runCommandSync(c.q)] : [3, 2];
+                                    case 1:
+                                        return t.sent(), this._machineMediator.startSpin(), [2, e.prototype.run.call(this)];
+                                    case 2:
+                                        return [4, this.runCommandSync(c.n)];
+                                    case 3:
+                                        t.sent(), this._replayModel.endRound(), this.context.get(c.z).reset(), this._replayModel.hasReplay() ? this._replayMediator.open() : this.runCommandSync(c.W), t.label = 4;
+                                    case 4:
+                                        return [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(c.z), Object(r.f)("design:type", "function" == typeof(n = void 0 !== c.z && c.z) ? n : Object)], t.prototype, "_machineMediator", void 0), Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(o = void 0 !== c.L && c.L) ? o : Object)], t.prototype, "_roundModel", void 0), Object(r.c)([Object(s.i)(c.H), Object(r.f)("design:type", "function" == typeof(i = void 0 !== c.H && c.H) ? i : Object)], t.prototype, "_replayModel", void 0), Object(r.c)([Object(s.i)(c.G), Object(r.f)("design:type", "function" == typeof(a = void 0 !== c.G && c.G) ? a : Object)], t.prototype, "_replayMediator", void 0), t
+                }(c.J),
+                R = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o, c, i;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(e) {
+                                return this._freeSpinsMediator.reset(), this._multiplierPanelMediator.reset(), this._anticipationMediator.reset(), this._machineSounds.reset(), [2]
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(d.c), Object(r.f)("design:type", "function" == typeof(n = void 0 !== d.c && d.c) ? n : Object)], t.prototype, "_freeSpinsMediator", void 0), Object(r.c)([Object(s.i)(d.g), Object(r.f)("design:type", "function" == typeof(o = void 0 !== d.g && d.g) ? o : Object)], t.prototype, "_multiplierPanelMediator", void 0), Object(r.c)([Object(s.i)(d.a), Object(r.f)("design:type", "function" == typeof(c = void 0 !== d.a && d.a) ? c : Object)], t.prototype, "_anticipationMediator", void 0), Object(r.c)([Object(s.i)(a.GameSoundsManager), Object(r.f)("design:type", "function" == typeof(i = void 0 !== a.GameSoundsManager && a.GameSoundsManager) ? i : Object)], t.prototype, "_machineSounds", void 0), t
+                }(s.e),
+                I = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n, o;
+                    return Object(r.d)(t, e), t.prototype.run = function() {
+                        return Object(r.b)(this, void 0, void 0, (function() {
+                            return Object(r.e)(this, (function(e) {
+                                switch (e.label) {
+                                    case 0:
+                                        return this._gamblePanelMediator.hide(), [4, Object(p.A)(1)];
+                                    case 1:
+                                        return e.sent(), this._sounds.switchMusic(a.MusicLevel.FREE_SPINS), [2]
+                                }
+                            }))
+                        }))
+                    }, Object(r.c)([Object(s.i)(d.e), Object(r.f)("design:type", "function" == typeof(n = void 0 !== d.e && d.e) ? n : Object)], t.prototype, "_gamblePanelMediator", void 0), Object(r.c)([Object(s.i)(a.GameSoundsManager), Object(r.f)("design:type", "function" == typeof(o = void 0 !== a.GameSoundsManager && a.GameSoundsManager) ? o : Object)], t.prototype, "_sounds", void 0), t
+                }(s.e),
+                A = n("/4oR"),
+                N = n("jPZl"),
+                G = n("8A8B"),
+                C = {
+                    main: l.a.MAIN,
+                    bonus: l.a.BONUS,
+                    fs1: l.a.FREE_SPINS_1,
+                    fs2: l.a.FREE_SPINS_2,
+                    fs3: l.a.FREE_SPINS_3,
+                    gamble1: l.a.GAMBLE_1,
+                    gamble2: l.a.GAMBLE_2
+                },
+                k = ((o = {})[l.a.GAMBLE_1] = "gamble1", o[l.a.GAMBLE_2] = "gamble2", o[l.a.FREE_SPINS_1] = "fs1", o[l.a.FREE_SPINS_2] = "fs2", o[l.a.FREE_SPINS_3] = "fs3", o[l.a.BONUS_MAX] = "fs3", o),
+                F = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    var n;
+                    return Object(r.d)(t, e), t.prototype.sendAction = function(e) {
+                        return Object(r.b)(this, void 0, Promise, (function() {
+                            var t, n, o;
+                            return Object(r.e)(this, (function(s) {
+                                switch (s.label) {
+                                    case 0:
+                                        return (t = this._roundModel.getNextRound()) ? [2, t] : (n = this.getServer(), o = k[e], [4, n.continueRound({
+                                            action: o,
+                                            bet: m.e.fromZero(),
+                                            roundId: this._roundModel.getRoundId()
+                                        })]);
+                                    case 1:
+                                        return [2, s.sent()]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.buyBonus = function(e) {
+                        return Object(r.b)(this, void 0, Promise, (function() {
+                            var t;
+                            return Object(r.e)(this, (function(n) {
+                                switch (n.label) {
+                                    case 0:
+                                        return (t = this._roundModel.getNextRound()) ? [2, t] : [4, this.getServer().openRound({
+                                            action: l.a.BONUS,
+                                            bet: e
+                                        })];
+                                    case 1:
+                                        return [2, n.sent()]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.buyBonusMax = function(e) {
+                        return Object(r.b)(this, void 0, Promise, (function() {
+                            return Object(r.e)(this, (function(t) {
+                                switch (t.label) {
+                                    case 0:
+                                        return this._roundModel.hasMoreSpins() ? [2, Promise.resolve(null)] : [4, this.getServer().openRound({
+                                            action: l.a.FREE_SPINS_3,
+                                            bet: e
+                                        })];
+                                    case 1:
+                                        return [2, t.sent()]
+                                }
+                            }))
+                        }))
+                    }, t.prototype.showMessage = function(e) {}, Object(r.c)([Object(s.i)(c.L), Object(r.f)("design:type", "function" == typeof(n = void 0 !== _.a && _.a) ? n : Object)], t.prototype, "_roundModel", void 0), t
+                }(N.a),
+                T = (function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    Object(r.d)(t, e), t.prototype.register = function(e) {
+                        this.addOther(N.b), e.update(y.b).to(F)
+                    }, t.prototype.run = function(t) {
+                        e.prototype.run.call(this, t), t.get(c.A).enable(), t.get(y.b).getServer().setConfig({
+                            symbolsMap: {
+                                Low1: G.c.LOW_1,
+                                Low2: G.c.LOW_2,
+                                Low3: G.c.LOW_3,
+                                Mid1: G.c.MID_1,
+                                Mid2: G.c.MID_2,
+                                Mid3: G.c.MID_3,
+                                High1: G.c.HIGH_1,
+                                High2: G.c.HIGH_2,
+                                High3: G.c.HIGH_3,
+                                SuperHigh: G.c.SUPER_HIGH
+                            },
+                            roundParser: function(e) {
+                                var t, n;
+                                return {
+                                    nextActions: (t = e.wager, (null !== (n = t.next) && void 0 !== n ? n : []).map((function(e) {
+                                        return C[e]
+                                    }))),
+                                    roundMode: function(e) {
+                                        var t = e.next,
+                                            n = e.data,
+                                            o = function(e) {
+                                                return n && n[0].level === e
+                                            },
+                                            s = [{
+                                                test: !n && t && t.includes("gamble2"),
+                                                mode: l.c.NEXT_GAMBLE
+                                            }, {
+                                                test: o(0),
+                                                mode: l.c.BASE
+                                            }, {
+                                                test: o(1),
+                                                mode: l.c.FREE_SPINS_1
+                                            }, {
+                                                test: o(2),
+                                                mode: l.c.FREE_SPINS_2
+                                            }, {
+                                                test: o(3),
+                                                mode: l.c.FREE_SPINS_3
+                                            }],
+                                            c = s.findIndex((function(e) {
+                                                return e.test
+                                            }));
+                                        return c >= 0 ? s[c].mode : l.c.LOST
+                                    }(e.wager),
+                                    action: C[e.wager.action]
+                                }
+                            },
+                            spinParser: function(e, t, n) {
+                                var o, s, c = null !== (o = n[t + 1]) && void 0 !== o ? o : e,
+                                    i = Object(A.calculateWinWays)(e.board),
+                                    a = Object(A.calculateWinWays)(c.board);
+                                return {
+                                    isLastSpin: t === n.length - 1,
+                                    winWaysBefore: i,
+                                    winWaysAfter: a,
+                                    deadSpins: Object(r.a)(Object(r.a)({}, e.deadSpins), {
+                                        level: e.level
+                                    }),
+                                    bonus: e.bonus,
+                                    multiplier: e.multiplier,
+                                    symbolMultiplier: e.symbolMultiplier,
+                                    nextSymbolMultiplier: c.symbolMultiplier,
+                                    unlocked: e.unlocked,
+                                    totalWinBeforeMultiplier: (s = e, s.totalWinBeforeMultiplier ? {
+                                        coin: m.e.fromZero(),
+                                        cash: m.e.fromString(s.totalWinBeforeMultiplier)
+                                    } : null)
+                                }
+                            }
+                        })
+                    }
+                }(s.a), n("TPAI")),
+                D = n("WhR9"),
+                U = n("bL/A"),
+                H = n("/Kl7"),
+                W = function(e) {
+                    function t() {
+                        return null !== e && e.apply(this, arguments) || this
+                    }
+                    return Object(r.d)(t, e), t.prototype.register = function(e) {
+                        e.bind([d.h, d.c, d.k, d.e, d.f, d.g, d.i, d.l, d.a]), e.bind([a.MultiplierPanel, a.WinWaysPanel, a.GamblePanel, a.BuyBonusButtonPanel, a.AnticipationPanel, H.a, a.BonusUnlock]), e.bind([U.a]), e.bind([a.WinPanel]), e.bind([a.TotalWinPanel]), e.bind([a.FreeSpinsIntro]), e.bind([a.TickerPanel]), e.bindInTransientScope(D.a), e.bindInTransientScope(D.c), e.update(c.z).to(d.n), e.update(c.k).to(a._GameBackground), e.update(c.l).to(a._Machine), e.update(c.T).to(a.SplashScreen), e.update(c.v).to(a._GameScene), e.update(c.L).to(_.a), e.update(c.d).to(d.m), e.update(c.ab).to(v.p), e.update(c.D).to(x), e.update(c.V).to(g), e.update(c.P).to(b), e.mapCommandEffects(c.p, [E]), e.mapCommandEffects(c.n, [R]), e.bindTo(a.GameSoundsManager, new a.GameSoundsManager), e.mapCommandEffects(v.e, [
+                            [B, function() {
+                                return {
+                                    isBonusBuy: !1,
+                                    isBonusBuyMax: !1
+                                }
+                            }]
+                        ]), e.mapCommandEffects(v.h, [O]), e.mapCommandEffects(v.m, [j]), e.mapCommandEffects(v.c, [c.m, M, c.Y, O, [x, function() {
+                            return !0
+                        }], S]), e.mapCommandEffects(v.d, [c.m, M, c.Y, j, [x, function() {
+                            return !0
+                        }], S]), e.mapCommandEffects(v.b, [c.m, w, c.Y, I, [x, function() {
+                            return !0
+                        }], S]), e.mapCommandEffects(v.f, [P, c.m, [B, function() {
+                            return {
+                                isBonusBuy: !0,
+                                isBonusBuyMax: !1
+                            }
+                        }]]), e.mapCommandEffects(v.a, [c.r]), e.update(c.C).to(v.o), e.update(c.B).to(v.n), e.mapCommandEffects(v.k, [c.m, c.Y, [h, function(e) {
+                                return e
+                            }],
+                            [B, function() {
+                                return {
+                                    isBonusBuy: !1,
+                                    isBonusBuyMax: !1
+                                }
+                            }], S
+                        ]), e.mapCommandEffects(v.l, [c.m, c.Y, [h, function(e) {
+                                return e
+                            }],
+                            [B, function() {
+                                return {
+                                    isBonusBuy: !1,
+                                    isBonusBuyMax: !0,
+                                    isBonusBuyMaxReplay: !0
+                                }
+                            }], S
+                        ]), e.mapCommandEffects(v.i, [c.m, c.Y, [h, function(e) {
+                                return e
+                            }],
+                            [B, function() {
+                                return {
+                                    isBonusBuy: !1,
+                                    isBonusBuyMax: !1
+                                }
+                            }], L
+                        ]), e.mapCommandEffects(v.j, [c.m, c.Y, [h, function(e) {
+                                return e
+                            }],
+                            [B, function() {
+                                return {
+                                    isBonusBuy: !1,
+                                    isBonusBuyMax: !0,
+                                    isBonusBuyMaxReplay: !0
+                                }
+                            }], L
+                        ]), e.mapCommandEffects(v.g, [c.r]), this.addOther(T.a)
+                    }, t.prototype.run = function(t) {
+                        e.prototype.run.call(this, t), t.get(c.a).add(f), t.get(c.U).add(u, {
+                            useVersion: Object(c.bb)(u)
+                        }), t.get(c.E).setParams({
+                            replaySpinsInfo: i.Fragment,
+                            settingsPage: a._SettingsPage
+                        }), t.get(c.G).liveReplayEnabled = !0, c.j.SOUNDS = {
+                            CORE_SPIN_START_CLICK: "",
+                            CORE_SPIN_STOP_CLICK: "",
+                            CORE_BASIC_BUTTON_CLICK: "sfx_ui_basic_click"
+                        }
+                    }, t
+                }(s.a),
+                J = new s.b([c.O, W])
+        },
+        cPjY: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_6_high.52cbccd8d2057d7b15c09806a30aa23c.ogg"
+        },
+        dO3k: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_mid.eee04009fc594663a33b44a5dd57eb9a.mp3"
+        },
+        dqJa: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_epic_v2.f90b00e280e5fe2d098cbeaecc7a8b8b.m4a"
+        },
+        eAeZ: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_super_high_upgrade.3e1c8e8c05610f812af7f99f75c06ea0.mp3"
+        },
+        etra: function(e, t, n) {
+            e.exports = n.p + "resources/symbols@0.5x.63252b2db79ad84ade81290111b25a10.png"
+        },
+        fSgD: function(e, t, n) {
+            e.exports = n.p + "resources/splash_screen.174bf27f7852ff4ab04af693dc0b1d3d.json"
+        },
+        fcNc: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_end.8839f2d3d849cdee79b767499196b618.m4a"
+        },
+        fyh9: function(e, t, n) {
+            e.exports = n.p + "resources/mus_pre_free_spins_gamble.7015206b31475f685f0266e620614a76.mp3"
+        },
+        g7aU: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stop.8920c3ddd5a1fb16cddc7d1df0a65b8f.ogg"
+        },
+        g9J8: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_epic_v2.7f8557cf6120bd9c402fce15f327408f.mp3"
+        },
+        gZ2j: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_connect.4b84f23d82da9fc38554c2a7f4b446bc.m4a"
+        },
+        gqwA: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_high.a8365457f6c3854341391727a8d82948.mp3"
+        },
+        gw6q: function(e, t, n) {
+            e.exports = n.p + "resources/gamble_panel.a82673ebff101340305c0ad28bdcfdc2.json"
+        },
+        h0gk: function(e, t, n) {
+            e.exports = n.p + "resources/symbols.ebaba19edd371cb65d88880785e248d7.json"
+        },
+        hIj6: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award2.336312ebab08886653436eb8b22d170d.ogg"
+        },
+        hlc4: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var4.7b8d6b669f15aae4295528d2d1342c7f.m4a"
+        },
+        i8G1: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_6_high.7a473a8214cecfb7d53b2f246251aa44.mp3"
+        },
+        jH4U: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var3.5beba9c7d1c635d6da636e027bc95cd0.mp3"
+        },
+        jpdC: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_end.e8cd42c5956736842af0387e1e32818e.mp3"
+        },
+        kT4H: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_ui_basic_click.1bb514cd2409015f349908364c179720.m4a"
+        },
+        l7ow: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_slow.31be24a3e2e3ae75f30ccffb4ce63938.m4a"
+        },
+        lQgo: function(e, t, n) {
+            e.exports = n.p + "resources/ui_generic_button.6f203bf09518fa4cc4ad074e36a877f6.ogg"
+        },
+        leS9: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_5_high.d3017650764369fe053b0c505fbb4867.mp3"
+        },
+        lkDg: function(e, t, n) {
+            e.exports = n.p + "resources/mus_main_excitement.4a6f0a95ebae6d41fc26b16cc5d0e2b8.ogg"
+        },
+        m8Qy: function(e, t, n) {
+            e.exports = n.p + "resources/gamble_fx@0.5x.8ee7ebb681ef12b562e4b48e4aa38fe5.png"
+        },
+        mK3e: function(e, t, n) {
+            e.exports = n.p + "resources/mus_main_excitement.b8c440fa3dee2c9fc3d22cb47bf5cc35.m4a"
+        },
+        mivn: function(e, t, n) {
+            e.exports = n.p + "resources/multiplier@0.5x.801220a68032e649d641b3624e1adcb7.png"
+        },
+        mrS0: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_loop.43d199e4f9606cb638d3ee196bd829d8.mp3"
+        },
+        n76g: function(e, t, n) {
+            e.exports = n.p + "resources/gamble_fx.00565762b6d6f306c5b159540bfe5ac7.json"
+        },
+        nIn5: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var3.09414d4e39f0b46f0b56f8dea8a24b61.m4a"
+        },
+        oUkK: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var4.cf8bceee1dcb1a6f0139392f12281132.ogg"
+        },
+        oqDw: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_super_v2.3be7f1a728e7749bd4096906801009b1.m4a"
+        },
+        pTHo: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stopping.d4c66409ff11bf248e4f944e4c59f06e.mp3"
+        },
+        pVdR: function(e, t, n) {
+            e.exports = n.p + "resources/multiplier.a24d4c5594964c7b3a839c74c220f3ee.png"
+        },
+        pluU: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var1.d64a7bca71f6735038b365d680ec5953.mp3"
+        },
+        r2Cm: function(e, t, n) {
+            e.exports = n.p + "resources/multiplier.1d065129c0865a82a8425fb42316f9cb.json"
+        },
+        rUhE: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbols_win_superhigh.7440161e90e42eab67f994fba44b8d1d.mp3"
+        },
+        sz86: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var2.3ad22ed09a0b9e69c475cb4d532c7aa3.m4a"
+        },
+        tT3O: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_8_high.7ca3b2956a3a08995614cbb92151c0b8.mp3"
+        },
+        tiYc: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var1.eba53f7da117be6a7343f84f9b9da1ae.ogg"
+        },
+        uAGw: function(e, t, n) {
+            e.exports = n.p + "resources/win@0.5x.409802f96c8df0550579946c6bfad38b.png"
+        },
+        uBbq: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_mega_v2.2705d9658bd4605230d94555bed91f66.mp3"
+        },
+        uL46: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_reels_fill.54f61c8b14b39cfe8ece30a73dea8cf8.ogg"
+        },
+        "uPE/": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_transition_explosion.fd3e8e0bbf3321d7c8fc0f7c8709c94c.m4a"
+        },
+        "uT+8": function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_lost.ceee6fa23be0789b85204004cf17c860.ogg"
+        },
+        "v2N+": function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_stopping.ff86421db0c639154e9f1563b4fa844d.ogg"
+        },
+        vn5t: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_escalation.3170e3d9781a7f03397ec2ca04f3bcda.m4a"
+        },
+        vtaS: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_fast.4169d9eabceede36acc9ef072de6142a.ogg"
+        },
+        vtqy: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_reels_5_high.555c48995260841f5b9aba545f8d772a.ogg"
+        },
+        w1D7: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_wheel_fs_spin_fast.7fe06b58bcad898fbbc53ad644de55c7.mp3"
+        },
+        wRFZ: function(e, t, n) {
+            e.exports = n.p + "resources/mus_freespins.2a2d25129eda0c064b07d263d18d6c1e.ogg"
+        },
+        wv76: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_wheel_fs_award3.6fbf054f6fbe377ad4c00a0c764199bf.m4a"
+        },
+        xCI9: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_multiplier_applied.54192d204dbf7dcc3da76115bc5bab42.mp3"
+        },
+        xHFG: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_end.89012412c7a3b683d77fd2d071ba3bf4.ogg"
+        },
+        yUTQ: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_symbol_appear_option1_var1.288ea44873d7eb8dd5b151756ab22520.m4a"
+        },
+        zRgx: function(e, t, n) {
+            e.exports = n.p + "resources/mfx_win_epic_v2.e8412a9f7f19bab9179e3f2f1b82f3ea.ogg"
+        },
+        zsOO: function(e, t, n) {
+            e.exports = n.p + "resources/sfx_win_countup_end.98dcedf7af795bf9caeb12bab0ed03a6.m4a"
+        }
+    }
+]);

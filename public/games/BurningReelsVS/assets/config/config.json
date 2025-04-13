@@ -1,0 +1,98 @@
+{
+  "minPasswordLength": 6,
+  "minPinLength": 4,
+  "minUsernameLength": 3,
+  "title": "",
+  "useLandingPage": true,
+  "showLogoOnLandingPage": true,
+  "allowSlotDemo": false,
+  "usePassword": false,
+  "usePin": true,
+  "walletServiceUrl": "",
+  "logServiceUrl": "Log/",
+  "origin": 60,
+  "stylesheet": "assets/css/ss.css",
+  "icons": [
+   
+  ],
+  "manifest": "assets/images/ss/manifest.json",
+  "tabs": [
+    {
+      "link": "sportbets",
+      "label": "Livesports"
+    },
+    {
+      "link": "videoslots",
+      "label": "Vision Slots",
+      "children": "game"
+    },
+    {
+      "link": "xlive",
+      "label": "XLive"
+    },
+    {
+      "link": "tomhornslots",
+      "label": "Tom Horn Slots",
+      "children": "tomhorn"
+    },
+    {
+      "link": "luckysixbingo",
+      "label": "Lucky Six Bingo"
+    }
+  ],
+  "autoDetectLanguage": false,
+  "languages": [
+    {
+      "link": "en",
+      "label": "English"
+    },
+    {
+      "link": "de",
+      "label": "Deutsch"
+    },
+    {
+      "link": "tr",
+      "label": "Türkçe"
+    },
+    {
+      "link": "hr",
+      "label": "Hrvatski"
+    },
+    {
+      "link": "pt",
+      "label": "Português"
+    },
+    {
+      "link": "fr",
+      "label": "Français"
+    }
+  ],
+  "gamebedded": {
+    "contentUrl": "",
+    "gameServerUrl": ""
+  },
+  "luckySix": {
+    "contentUrl": "ExternalLogin.aspx?action=login&userid={USERNAME}&language={LANGUAGE}&token={TOKEN}&currency=pts",
+    "demoUrl": "LuckySix/En/LuckySixBingo.html",
+    "usernamePlaceholder": "{USERNAME}",
+    "tokenPlaceholder": "{TOKEN}",
+    "languagePlaceholder": "{LANGUAGE}"
+  },
+  "sportbets": {
+    "contentUrl": "Integration/Lion?identifier={USERNAME}&auth={TOKEN}&lang={LANGUAGE}&error=https%3a%2f%2fbetx.club%2faccess-denied",
+    "demoUrl": "Integration/Lion?identifier=demo_betx&auth=8273&lang={LANGUAGE}&error=https%3a%2f%2fbetx.club%2faccess-denied",
+    "usernamePlaceholder": "{USERNAME}",
+    "tokenPlaceholder": "{TOKEN}",
+    "languagePlaceholder": "{LANGUAGE}"
+  },
+  "xlive": {
+    "contentUrl": "index.xhtml?customerSession={TOKEN}&customerGroup={SITE}{CURRENCY}&languageCode={LANGUAGE}&exitUrl=https%3a%2f%2fbetx.club%2f{RETURN}",
+    "demoUrl": "index.xhtml?customerSession={TOKEN}&customerGroup={SITE}{CURRENCY}&languageCode={LANGUAGE}&exitUrl=https%3a%2f%2fbetx.club%2f{RETURN}",
+    "usernamePlaceholder": "{USERNAME}",
+    "tokenPlaceholder": "{TOKEN}",
+    "languagePlaceholder": "{LANGUAGE}",
+    "currencyPlaceholder": "{CURRENCY}",
+    "sitePlaceholder": "{SITE}",
+    "returnPlaceholder": "{RETURN}"
+  }
+}

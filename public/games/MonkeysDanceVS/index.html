@@ -1,0 +1,228 @@
+<html lang="en" style="overflow:hidden;"><head>
+  <meta charset="utf-8">
+  <title>MonkeysDanceVS</title>
+  <base href="/games/MonkeysDanceVS/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="revision" content="a392afd[v.1.1.2-rc2]">
+<link rel="stylesheet" href="styles.c5a0869e419de98653df.css"></head>
+<body '>
+
+<div  id="bg" style="background:black;position:fixed;width:100vw;height:100vh;top:0px;left:0px;z-index:100;"></div>
+<div  id="bg2" style="background:black;position:fixed;width:100vw;height:100vh;top:0px;left:0px;z-index:110;"></div>
+<script>
+
+
+	function getAllUrlParams(url) {
+
+
+  var queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+
+
+  var obj = {};
+
+
+  if (queryString) {
+
+
+    queryString = queryString.split('#')[0];
+
+   
+    var arr = queryString.split('&');
+
+    for (var i=0; i<arr.length; i++) {
+   
+      var a = arr[i].split('=');
+
+
+      var paramNum = undefined;
+      var paramName = a[0].replace(/\[\d*\]/, function(v) {
+        paramNum = v.slice(1,-1);
+        return '';
+      });
+
+   
+      var paramValue = typeof(a[1])==='undefined' ? true : a[1];
+
+
+      paramName = paramName.toLowerCase();
+      paramValue = paramValue.toLowerCase();
+
+ 
+      if (obj[paramName]) {
+
+        if (typeof obj[paramName] === 'string') {
+          obj[paramName] = [obj[paramName]];
+        }
+
+        if (typeof paramNum === 'undefined') {
+
+          obj[paramName].push(paramValue);
+        }
+
+        else {
+ 
+          obj[paramName][paramNum] = paramValue;
+        }
+      }
+
+      else {
+        obj[paramName] = paramValue;
+      }
+    }
+  }
+
+  return obj;
+}
+	
+var serverString=''; 	
+var qstr=getAllUrlParams();
+var slotCurrency=qstr.cur.toUpperCase();
+
+
+    var XmlHttpRequest = new XMLHttpRequest();
+    XmlHttpRequest.overrideMimeType("application/json");
+    XmlHttpRequest.open('GET', '/socket_config.json', false);
+    XmlHttpRequest.onreadystatechange = function ()
+    {
+        if (XmlHttpRequest.readyState == 4 && XmlHttpRequest.status == "200")
+        {
+            var serverConfig = JSON.parse(XmlHttpRequest.responseText);
+            serverString=serverConfig.prefix_ws+serverConfig.host_ws+':'+serverConfig.port;
+          
+        }
+    }
+    XmlHttpRequest.send(null);
+
+window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+ 
+if(!window.indexedDB)
+{
+    console.log("Your Browser does not support IndexedDB");
+}
+var req = indexedDB.deleteDatabase('ngStorage');
+var request = window.indexedDB.open("ngStorage", 1);
+console.log(request);
+
+
+var db;
+var transaction;
+
+request.onerror = function(event){
+    localStorage.clear();
+    console.log("Error opening DB", event);	
+	localStorage.setItem('ap.session', '{"credentials":{"barcode":"4116078299570565","loginName":"","password":"b8275bc3-720d-4036-84e3-119685dc60bc"},"displayName":"","balance":"","gambleAuthToken":"1/10104332148905441234","siteID":3194,"cbcxID":null,"maySetNickname":true,"allowedPages":["videoslots"],"isoCurrencyCode":756}')
+	
+}
+request.onupgradeneeded   = function(event){
+    console.log("Upgrading");
+	
+    db = event.target.result;
+    var objectStore = db.createObjectStore("localStorage");
+	console.log(db);
+};
+request.onsuccess  = function(event){
+    console.log("Success opening DB");
+    db = event.target.result;
+	var transaction = db.transaction(["localStorage"],"readwrite");
+var s=transaction.objectStore('localStorage');
+s.add({value:{allowedPages:[ "videoslots"],cbcxID:null,balance: 0,credentials:{barcode: "4116078299570565",loginName: "",password: "b8275bc3-720d-4036-84e3-119685dc60bc"},displayName: "",gambleAuthToken: "1/90317550732792655333",isoCurrencyCode: 756,siteID: 3194}},"ap.session");
+
+
+
+
+
+}
+
+
+
+
+
+
+</script>
+
+
+  <app-root _nghost-c0="" ng-version="6.1.9" class="">
+	<!---->
+	<!---->
+	
+
+	
+	
+</app-root>
+
+  <noscript>
+    <p>Please enable JavaScript to view this page</p>
+  </noscript>
+  
+  
+  <script>
+
+
+function HideBg(){
+
+var intr=setInterval(function(){
+var el=document.getElementsByClassName("active-nav");
+
+for(var i=0; i<el.length; i++){
+el[i].style['display']='none';
+}
+
+if(el.length>0){clearInterval(intr);document.getElementById("bg").style['display']='none';}
+
+},10);
+
+}
+
+
+
+		/*------------------------*/
+
+function dhtmlLoadScript(url)
+{
+   var e = document.createElement("script");
+   e.src = url;
+   e.type="text/javascript";
+   document.getElementsByTagName("head")[0].appendChild(e); 
+}
+
+
+   var isFontLoaded = false;
+
+        window.WebFontConfig = {
+            google: {
+                families: [ 'Roboto Mono',  'Open Sans']
+            },
+            active: function() {
+                isFontLoaded = true;
+         dhtmlLoadScript('scripts.8f24096a62fe6e9af8db.js');
+         dhtmlLoadScript('runtime.ec2944dd8b20ec099bf3.js');
+         dhtmlLoadScript('polyfills.76f7adf347a12e2d44ed.js');
+         dhtmlLoadScript('main.e6674570fd692727a4a1.js');
+			   
+			   
+
+			   
+            }
+        };
+
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'lib/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'false';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+
+                })();
+		
+		/*------------------------*/
+
+</script>
+
+
+
+
+
+
+
+</body></html>

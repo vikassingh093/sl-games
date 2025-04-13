@@ -1,0 +1,1 @@
+<option value="<?php echo e($timezone->Id); ?>" <?php echo e($selectedZone == $timezone->Id ? 'selected' : ''); ?> ><?php echo e($timezone->zone); ?></option><?php /**PATH /var/www/RiverDragon/resources/views/backend/user/partials/row_timezone.blade.php ENDPATH**/ ?>

@@ -1,0 +1,92 @@
+.modal-window-npass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000C20;
+    opacity: 0.88;
+    position: absolute;
+    z-index: 100000;
+}
+
+.modal-window-npass__scale-cont {
+    position: relative;
+    transform-origin: 50% 50%;
+    width: 883px;
+    height: 663px;
+}
+
+.modal-window-npass__pass1 {
+    top: 283px;
+}
+.modal-window-npass__pass2 {
+    top: 379px;
+}
+.modal-window-npass__error-text {
+    position: absolute;
+    font-family: 'MyriadPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 19px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    top: 56px;
+}
+
+.modal-window-npass__fields {
+    position: absolute;
+    resize: none;
+    border: #FAD123;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    width: 629px;
+    height: 60px;
+    left: 124px;
+    font-size: 23px;
+    outline: none;
+    color: #97DCFE;
+    background: rgba(0,0,0,0);
+    box-shadow: none;
+    z-index: 10;
+}
+
+.modal-window-npass__error {
+    position: absolute;
+    top: 404px;
+    left: 84px;
+    transition: 1s;
+    opacity: 0;
+    width: 716px;
+    height: 97px;
+    z-index: 1;
+}
+
+.modal-window-npass__close {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    left: 807px;
+    top: 37px;
+    z-index: 10;
+}
+
+.modal-window-npass__ok {
+    position: absolute;
+    cursor: pointer;
+    width: 784px;
+    height: 87px;
+    top: 543px;
+    left: 44px;
+    z-index: 10;
+}
+
+.modal-window-npass__back {
+    left: 0;
+    position: absolute;
+    width: 883px;
+    height: 663px;
+}

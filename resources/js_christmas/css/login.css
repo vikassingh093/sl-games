@@ -1,0 +1,80 @@
+.modal-window-login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+.modal-window-login input {
+    position: absolute;
+    resize: none;
+    border: none;
+    width: 440px;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /*height: 25px;*/
+    font-size: 30px;
+    outline: none;
+    color: #22DF8E;
+    background: rgba(0,0,0,0);
+    box-shadow: none;
+}
+
+.modal-window-login__down {
+    height: 50vh;
+    align-self: center;
+}
+.modal-window-login__logo {
+    height: 50vh;
+    text-align: center;
+}
+.modal-window-login__logo img {
+    height: 100%;
+    width: auto;
+}
+.modal-window-login__scale-cont {
+    position: relative;
+    transform-origin: 50% 0;
+}
+
+.modal-window-login__text-id {
+    left: 96px;
+    top: 108px;
+}
+
+.modal-window-login__text-pass {
+    left: 96px;
+    top: 220px;
+}
+
+.modal-window-login__back {
+    width: 1046px;
+    height: 432px;
+}
+
+.modal-window-login__check {
+    position: absolute;
+    cursor: pointer;
+    width: 29px;
+    height: 30px;
+    left: 688px;
+    top: 115px;
+}
+.modal-window-login__reg {
+    position: absolute;
+    width: 263px;
+    height: 68px;
+    left: 433px;
+    top: 340px;
+}
+
+.modal-window-login__login {
+    position: absolute;
+    width: 355px;
+    height: 94px;
+    left: 600px;
+    top: 200px;
+}

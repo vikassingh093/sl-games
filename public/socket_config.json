@@ -1,0 +1,13 @@
+{
+
+"port":"8443/slots",
+
+"host":"www.vedhagames.com",
+"prefix":"https://",
+
+"host_ws":"www.vedhagames.com",
+"prefix_ws":"wss://",
+
+"ssl":true
+
+}

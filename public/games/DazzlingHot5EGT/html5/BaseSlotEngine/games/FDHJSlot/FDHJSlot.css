@@ -1,0 +1,41 @@
+#Game.slot.FDHJSlot .gameViewport { background: url('BaseSlotEngine/games/FDHJSlot/images/background.jpg?v=1.5.0.r|23-07-2019|08:23:48') top center; }
+#Game.slot.FDHJSlot .backgroundOverlay { background-image: url('BaseSlotEngine/games/FDHJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48');  }
+#Game.slot.FDHJSlot .gameTitle { background-image: url('BaseSlotEngine/games/FDHJSlot/images/gameTitle.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.FDHJSlot .gameTitle.noJackpot { background-image: url('BaseSlotEngine/games/FDHJSlot/images/gameTitleNoJackpot.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.FDHJSlot .topGameTitle { background-image: url('BaseSlotEngine/games/FDHJSlot/images/topGameTitle.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.FDHJSlot .denomButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/denominationButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .autoplayButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/autoSoundButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .soundButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/autoSoundButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .betButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/betButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .icons{		background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsInfo.png?v=1.5.0.r|23-07-2019|08:23:48");}
+#Game.slot.FDHJSlot .iconsImage{	background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsInfo.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .jackpotBoxes { background-image: url('BaseSlotEngine/games/FDHJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.FDHJSlot .jackpotContentView
+{
+	border-color: #e79522;
+	background: -webkit-linear-gradient(black, #c30b2e);
+	background: -o-linear-gradient(black, #c30b2e);
+	background: -moz-linear-gradient(black, #c30b2e);
+	background: linear-gradient(black, #c30b2e);
+}
+#Game.slot.FDHJSlot .bottomUIContainer { background-image: url('BaseSlotEngine/games/FDHJSlot/images/backgroundOverlay.png?v=1.5.0.r|23-07-2019|08:23:48'); }
+#Game.slot.FDHJSlot .gambleContainer { border-color: #f5e937; }
+#Game.slot.FDHJSlot .settingsView { background-image: url("BaseSlotEngine/games/FDHJSlot/images/background.jpg?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .settingsPaytableCloseButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .settingsPaytableCloseButtonArrow { background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .settingsPaytableCloseButtonArrowHighlight { background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .paytableFromSettingsButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .settingsFromPaytableButton { background-image: url("BaseSlotEngine/games/FDHJSlot/images/settingsPaytableCloseButton.png?v=1.5.0.r|23-07-2019|08:23:48"); }
+#Game.slot.FDHJSlot .textField.lines
+{
+	color: #ffffff;
+	text-shadow: 0px 0px 6px #1f0403, 0px 0px 6px #1f0403, 0px 0px 6px #1f0403, 0px 0px 6px #1f0403, 0px 0px 6px #1f0403, 0px 0px 6px #1f0403, 0px 0px 6px #1f0403;
+}
+#Game.slot.FDHJSlot .textField.lines.active
+{
+	color: #fdff73;
+	text-shadow: 0px 0px 6px #c50000, 0px 0px 6px #c50000, 0px 0px 6px #c50000, 0px 0px 6px #c50000, 0px 0px 6px #c50000, 0px 0px 6px #c50000, 0px 0px 6px #c50000;
+}
+#Game.slot.FDHJSlot .gameNumberTime { color: #f7c379; }
+#Game.slot.FDHJSlot .textField.totals { color: #f7c379; }
+#Game.slot.FDHJSlot .textField.totals.jackpot { color: #f7c379; }

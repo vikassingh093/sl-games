@@ -1,0 +1,110 @@
+#loading_popup
+{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;    
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background: url('../img/loading_back.png') no-repeat;
+    background-size: cover;    
+    background-position: center;
+}
+
+#gameLoadingGuide
+{
+    color: #100d0d;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gameLoadingBack
+{
+    background: url('../img/loading_progress_back.png') no-repeat;
+    width: 45%;    
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#progressPercent
+{
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    font-weight: bold;    
+    margin-top: 1px;    
+}
+
+@media (orientation: portrait) {
+    #loading_popup
+    {
+        width: 100%;
+        height: 100%;
+        overflow:hidden;    
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        background: url('../img/loading_back_portrait.jpg') no-repeat;
+        background-size: cover;    
+        background-position: center;
+    }
+
+    #gameLoadingBack
+    {
+        background: url('../img/loading_progress_back.png') no-repeat;
+        width: 70%;    
+        background-size: contain;
+        background-position: center;
+        position: fixed;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.netgame-logo-wrapper{
+    background: url('../img/loading_back.png') no-repeat;
+}
+
+
+
+#gameLoadingProgress
+{
+    background: url('../img/loading_progress.png') no-repeat;
+    width: 0%;
+    height: 100%;
+    background-size:cover;
+    background-position-y: center;    
+}
+
+#mainframe{
+    border:0px
+}
+
+.home-btn{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background: url('../img/btn_home.png');
+    background-size: contain;
+    cursor:pointer;
+}
+
+.home-btn:hover{
+    transform: scale(1.1);
+}

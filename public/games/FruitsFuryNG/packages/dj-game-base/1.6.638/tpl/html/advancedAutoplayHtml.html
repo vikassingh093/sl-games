@@ -1,0 +1,380 @@
+
+<!-- saved from url=(0180)https://games.netgamenv.com/packages/dj-game-base/1.6.638/tpl/html/advancedAutoplayHtml.html?v=3.01.003&gameVersion=(build%2013%20commit%20f777f5586273afd3381533b35acbeea2b0a059ad) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+    :root {
+        --autoplay_caption_color:  #f6e18e;
+        --autoplay_element_color: #130029;
+        --autoplay_active_color: #ff7200;
+    }
+
+    @font-face {
+        font-family: "Futura";
+        src: url("css/fonts/FuturaPT-Medium.otf") format("opentype");
+        font-display: block;
+    }
+    @font-face {
+        font-family: "Futura";
+        font-weight: bold;
+        src: url("css/fonts/FuturaPT-Heavy.otf") format("opentype");
+        font-display: block;
+    }
+
+    * {
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    .html-advanced-autoplay {
+        position: relative;
+        height: {{autoplay_contentContainer_height}};
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        -ms-flex-pack: center;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: auto;
+        font-family: "Futura";
+        font-weight: bold;
+        font-size: 11pt;
+        background-color: rgba(0, 0, 0, 0.98);
+        color: #fff;
+    }
+
+    @media (orientation: landscape){
+        .html-advanced-autoplay {
+            height: 100%;
+        }
+    }
+
+    .html-autoplay-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        cursor: default;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+
+    .html-autoplay-title {
+        font-size: 30px;
+        color: #ec6a0d;
+        text-transform: uppercase;
+        background: rgba(15, 15, 35, 0.90);
+        margin: 0;
+        padding: 10px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .html-autoplay-caption {
+        padding-top: 2px;
+        display: flex;
+        justify-content: center;
+        min-height: 2em;
+        margin-top: 0.5em;
+        vertical-align: middle;
+        align-items: flex-end;
+    }
+
+    .html-autoplay-button-container {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        height: 20%;
+        align-items: center;
+        padding-top: 1%;
+    }
+
+    .html-autoplay-button {
+        height: fit-content;
+        cursor: pointer;
+        font-size: 1.1rem;
+        padding: 10px;
+        line-height: 25px;
+        margin: 0.5em 0.5em;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        box-sizing: border-box;
+        min-width: 40vw;
+        background-color: rgba(94, 91, 91, 0.8);
+        display: inline-block;
+        font-family: "Futura";
+    }
+
+    .html-autoplay-button-container input:disabled {
+        opacity: 0.6;
+    }
+
+    .spins-number {
+        list-style: none;
+        margin: 0;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        height: 30%;
+    }
+
+    @media all and (orientation:portrait) {
+        .spins-number {
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-gap: 10px;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            padding: 3% 9%;
+            height: 20%;
+        }
+    }
+
+    .spins-number__item {
+        background-color: var(--autoplay_active_color);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--autoplay_element_color);
+        font-size: 1.25em;
+        font-weight: 700;
+        box-shadow: 0px 0px 4px 2px var(--autoplay_active_color);
+    }
+
+    .spins_number_selected {
+        color: #101030;
+        background-color: #fff;
+        cursor: pointer;
+        box-shadow: 0px 0px 4px 2px #fff;
+    }
+
+    .autoplay_range_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        border-radius: 12px;
+        align-items: center;
+        padding: 0 2%;
+        height: 20%;
+    }
+
+    @media all and (orientation:portrait) {
+        .autoplay_range_container {
+            flex-direction: column;
+            padding: 5% 2%;
+        }
+
+        .autoplay_range_text {
+            margin-bottom: 0.6em;
+        }
+
+        .autoplay_range {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .autoplay_range_text {
+            width: 85%;
+            border-spacing: 0;
+            padding-left: 6%;
+            border-collapse: collapse;
+        }
+    }
+
+    @media all and (orientation:landscape) {
+        .autoplay_range {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            border-radius: 12px;
+        }
+
+        .autoplay_range_text {
+            width: 50%;
+            border-spacing: 0;
+            padding-left: 6%;
+            border-collapse: collapse;
+        }
+    }
+
+    .autoplay_range input {
+        -webkit-appearance: none !important;
+        width: 82%;
+        height: 8px;
+        background: #ff7200;
+        background-color: #ff7200;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+    .autoplay_range input::-webkit-slider-thumb {
+        height: 24px;
+        width: 12px;
+        border-radius: 25%;
+        background: #fff;
+        color: #43e5f7;
+        cursor: pointer;
+        -webkit-appearance: none !important;
+        margin-top: -6px;
+        box-shadow: 0px 0px 4px 1px #fff;
+    }
+    .autoplay_range input::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 10px;
+        -webkit-appearance: none !important;
+        color: #ff7200;
+        margin-top: -1px;
+    }
+    .autoplay_range input:disabled {
+        opacity: 0.6;
+    }
+    .autoplay_range input:focus {
+        outline: none;
+    }
+
+    .autoplay_range_text td {
+        vertical-align: middle;
+    }
+
+    .range_title {
+        width: 70%;
+        text-align: left;
+        padding-left: 2%;
+    }
+
+    .range_title_required {
+        color:  var(--autoplay_caption_color);
+    }
+
+    .autoplay-range__label_white {
+        color:  #fff;
+        font-size: 12pt;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .autoplay-range__label_currency {
+        color:  var(--autoplay_caption_color);
+        font-size: 12pt;
+        font-weight: bold;
+        text-align: right;
+    }
+
+
+    @media (orientation: landscape) and (max-height: 320px) {
+        .html-autoplay-title {
+            zoom: 60%;
+        }
+        .html-autoplay-caption {
+            min-height: 1em;
+        }
+        .spins-number {
+            padding: 1%;
+            height: 20%;
+        }
+        .range_title {
+            font-size: 10pt;
+            padding-left: 0;
+        }
+        .autoplay-range__label_white {
+            font-size: 10pt;
+        }
+        .autoplay-range__label_currency {
+            font-size: 10pt;
+        }
+        .html-autoplay-button-container{
+            align-items: flex-start;
+        }
+        .html-autoplay-button{
+            margin: 0em 0.5em;
+        }
+    }
+
+
+</style>
+
+</head><body><div class="html-advanced-autoplay">
+    <div class="html-autoplay-container">
+        <div class="html-autoplay-title">{{advancedAutoplay_Autopsin_text}}</div>
+
+
+        <div class="html-autoplay-caption">{{advancedAutoplay_NumberOfSpins_text}}</div>
+        <ul class="spins-number">
+            {{#autoplay_NumberOfSpins}}
+            <li class="spins-number__item {{autoplay_spins_number_class}}">{{autoplay_spins_value}}</li>
+            {{/autoplay_NumberOfSpins}}
+        </ul>
+
+
+        <div class="autoplay_range_container">
+            <table class="autoplay_range_text">
+                <tbody><tr>
+                    <td class="range_title">{{{advancedAutoplay_BalanceDecrease_text}}}</td>
+                    <td class="autoplay-range__label_white autoplay_balanceDecrease_value">text</td>
+                </tr>
+            </tbody></table>
+
+            <div class="autoplay_range">
+                <input type="range" class="autoplay_balanceDecrease_slider" min="0" max="{{autoplay_balanceDecreaseSlider_rangeMaxValue_text}}" value="0">
+            </div>
+        </div>
+
+
+        <div class="autoplay_range_container">
+            <table class="autoplay_range_text">
+                <tbody><tr>
+                    <td class="range_title">{{{advancedAutoplay_BalanceIncrease_text}}}</td>
+                    <td class="autoplay-range__label_white autoplay_balanceIncrease_value">text</td>
+                </tr>
+            </tbody></table>
+
+            <div class="autoplay_range">
+                <input type="range" class="autoplay_balanceIncrease_slider" min="0" max="{{autoplay_balanceIncreaseSlider_rangeMaxValue_text}}" value="0">
+            </div>
+        </div>
+
+
+        <div class="autoplay_range_container">
+            <table class="autoplay_range_text">
+                <tbody><tr>
+                    <td class="range_title">{{{advancedAutoplay_SingleWin_text}}}</td>
+                    <td class="autoplay-range__label_white autoplay_singleWin_value">text</td>
+                </tr>
+            </tbody></table>
+
+            <div class="autoplay_range">
+                <input type="range" class="autoplay_singleWin_slider" min="0" max="{{autoplay_singleWinSlider_rangeMaxValue_text}}" value="0">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="html-autoplay-button-container">
+        <input type="button" class="html-autoplay-button html-autoplay-button-hide" value="{{advancedAutoplay_Hide_text}}">
+        <input type="button" class="html-autoplay-button html-autoplay-button-start" value="{{advancedAutoplay_Start_text}}">
+    </div>
+
+
+</div>
+</body></html>
